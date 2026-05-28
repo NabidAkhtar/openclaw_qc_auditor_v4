@@ -176,11 +176,11 @@ Evaluates whether the task meaningfully tests agent-building capability and expo
 
 ---
 
-## Dimension 7 — Trajectory: Guidance *(UPDATED 03/03, REMOVED 05/04)*
+## Dimension 7 — Trajectory: Guidance *(REMOVED 05/04)*
 
-**Applies to:** **REMOVED as of 05/04.** Do not evaluate or apply tags from this dimension.
+> **DO NOT EVALUATE THIS DIMENSION.** It was removed on 05/04 and is no longer part of the QC audit workflow.
 
-(Historical: checked whether the CB guided the agent toward the components of the Desired Outcome.)
+(Historical: This dimension checked whether the CB guided the agent toward the components of the Desired Outcome.)
 
 ---
 
@@ -278,29 +278,34 @@ The rubric should contain at least 1 negative-weight criterion.
 
 ---
 
-## Dimension 12 — Ratings: Validity *(dimension REMOVED 03/09; `[Fail - Incorrect Evaluations]` tag REMOVED 05/23)*
+## Dimension 12 — Ratings: Validity *(dimension REMOVED 03/09; Fail tag RETIRED 05/23)*
 
-**Applies to:** Dimension is REMOVED as a stand-alone graded dimension. The Non-Fail tag survives as a discretionary signal for CB rating-correctness issues (e.g., CB misreads of model output).
+> **DIMENSION STATUS:** This dimension was REMOVED on 03/09 as a stand-alone graded dimension. Only ONE tag survives: `[Non-Fail - Minor Incorrect Evaluations]`. The Fail variant was permanently retired on 05/23.
 
-> **05/23 update:** `[Fail - Incorrect Evaluations]` is **permanently retired**. Even when a CB egregiously misreads model output across many criteria, the framework no longer drives the score to 1-2 from this finding alone. Only `[Non-Fail - Minor Incorrect Evaluations]` may fire, which by Rule 3 in `02_grading_scale.md` lands the task at Score 3-4 unless another dimension binds lower.
+**Current scope:** This is now a discretionary signal for CB rating-correctness issues only (e.g., CB misreads of model output). It does NOT drive a Score 1-2 verdict; the worst outcome from this tag alone is Score 3-4.
 
-Rankings were formulaically determined: `score = (sum of weights for passed criteria) / (sum of all weights) * 100`. Then rank agents by score.
+### [1-2 / Fail] — RETIRED 05/23, do NOT emit
+- **`[Fail - Incorrect Evaluations]`** — **PERMANENTLY RETIRED.** Do NOT emit this tag under any circumstance.
+- **`[Fail - Major Evaluation Error]`** — Legacy tag, also out of policy post-05/23. Do NOT emit.
 
-### [1-2 / Fail]
-- *(REMOVED 05/23)* `[Fail - Incorrect Evaluations]` — **Do NOT emit.** This tag was retired on 05/23. Severe CB rating errors that would historically have fired this tag should now be re-examined: are they actually rubric-quality issues (Dim 8), justification issues (Dim 21), or genuine CB misreads (use the Non-Fail variant below)?
+> Severe CB rating errors that would historically have triggered a Fail tag should now be routed to the appropriate dimension:
+> - If the rubric itself has defects → Dim 8 (Rubric Quality)
+> - If justifications defend an invalid rubric → Dim 21 (Failed Rubric/Unit Test Justification)
+> - If CB genuinely misread model output → `[Non-Fail - Minor Incorrect Evaluations]` (this tag)
 
-### [3-4 / Non-Fail]
-- `[Non-Fail - Minor Incorrect Evaluations]` *(UPDATED 05/23)*
+### [3-4 / Non-Fail] — Active
+- **`[Non-Fail - Minor Incorrect Evaluations]`** *(UPDATED 05/23)*
   - **Spec wording:** *"The contributor incorrectly evaluated some of the rubric ratings."*
-  - Pre-05/23 thresholds (10% / "very subjective") are no longer in the spec; the new wording is intentionally permissive — emit when one or more CB ratings are objectively wrong against the model's actual output, regardless of count or whether the ranking flipped.
+  - Emit when one or more CB ratings are objectively wrong against the model's actual output, regardless of count.
+  - No threshold applies — emit even for a single wrong rating if the error is objective.
 
-### [5 / Pass]
-- The CB ratings and criteria weights are correct. (No tag.)
+### [5 / Pass] — No tag
+- The CB ratings and criteria weights are correct.
 
 ### Auditor notes (post-05/23)
-- The CSV's `rubric_justifications_breakdown_json` populates only criteria where (per spec) all pass@k evaluations failed. CB-misread checks should be confined to that scope; do not re-rate criteria whose justification field is empty.
-- For severe CB-misread patterns that would previously have warranted a Fail (e.g., the canonical "057ad pattern" where 15/15 criteria are CB-mismarked), the framework now emits `[Non-Fail - Minor Incorrect Evaluations]` and relies on **other dimensions** (e.g., Dim 8 Rubric Quality if the rubric has hardcoded errors, Dim 21 if justifications defend overfit rubrics, or G5 leak detection) to drive a Score 2 verdict when warranted.
-- The legacy tag `[Fail - Major Evaluation Error]` (1× in the 33-audit corpus, see `04_error_categories.md`) is also out of policy post-05/23 — do not emit it.
+- **pass@k gate:** The CSV's `rubric_justifications_breakdown_json` populates only criteria where all pass@k evaluations failed. CB-misread checks should be confined to that scope; do not re-rate criteria whose justification field is empty.
+- **Score consequence:** This tag alone yields Score 3-4 at worst. To reach Score 2, another dimension must bind (Dim 8 Rubric Quality, Dim 21 Justification, or G5 leak detection).
+- **"057ad pattern":** For the canonical pattern where 15/15 criteria are CB-mismarked, the framework now emits `[Non-Fail - Minor Incorrect Evaluations]` and relies on **other dimensions** to drive a Score 2 verdict when warranted.
 
 ---
 
@@ -549,9 +554,9 @@ For each rubric or unit test in scope, the CB must answer 3 justification questi
 
 ---
 
-## Dimension out of grading rubric — Desired Outcome Coverage *(UPDATED 03/03, REMOVED 05/04)*
+## Dimension out of grading rubric — Desired Outcome Coverage *(REMOVED 05/04)*
 
-**Applies to:** **REMOVED — use as context only, not graded.**
+> **DO NOT EVALUATE THIS DIMENSION.** It was removed on 05/04. Use `desired_outcome` as context only — it is not graded.
 
 (Historical: defined the artifact, components, decision logic, and verification method.)
 
@@ -581,3 +586,5 @@ For each rubric or unit test in scope, the CB must answer 3 justification questi
 | 19. Safety: Failure Description | | | ✓ | | |
 | 20. Safety: Action Tier | | | ✓ | | |
 | 21. Failure Justification | | | | | ✓ |
+
+> **REMOVED dimensions (do not evaluate):** Dimension 7 (Trajectory: Guidance), Desired Outcome Coverage. See `10_dated_change_log.md` for removal dates.

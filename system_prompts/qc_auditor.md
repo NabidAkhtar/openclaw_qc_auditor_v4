@@ -67,7 +67,7 @@ Default to reading the focused system prompt and applying it **inline**. Dispatc
 
 3. **Tag-count discipline.** Average tags per score (corpus): 5 → 0, 4 → 2.2, 3 → 1.5, 2 → 3.2. If you find yourself emitting 5+ tags, stop and re-evaluate.
 
-4. **Never-used Fail tags.** Do NOT emit any of these (0/33 real audits): `[Fail - Criteria Count]`, `[Fail - No Negative Criteria]` *(except per Dim 11 if has_safety_issues == "yes")*, `[Fail - Invalid Weights]`, `[Fail - Major Depth Issues]`, `[Fail - Multi-turn Doesn't Use Memory]`, `[Fail - Major Source Issues]`, `[Fail - Feasibility with Tools]`, `[Fail - Highly Redundant Tests]`, `[Fail - Missing Trajectory]`, `[Fail - Bad Trajectory]`.
+4. **Never-used Fail tags.** See `reference/04_error_categories.md` → "Historical / REMOVED Fail tags" section. Tags like `[Fail - Criteria Count]`, `[Fail - No Negative Criteria]`, `[Fail - Invalid Weights]`, `[Fail - Major Depth Issues]`, `[Fail - Multi-turn Doesn't Use Memory]` have NEVER fired in 33 real audits — do NOT emit them. The only exception is `[Fail - No Negative Criteria]` when `has_safety_issues == "yes"` literally (per Dim 11).
 
 5. **Three-question check before any Fail tag:**
    - Does the spec EXPLICITLY mark this as failing (not just "could be better")?
@@ -100,10 +100,10 @@ Default to reading the focused system prompt and applying it **inline**. Dispatc
 
 17. **Post-v1 gap-checks must be evidence-grounded.** A G1–G4 tag fires only when the script's narrative cites a concrete artifact (named deliverable, named missing prompt constraint, named missing tool call). If the script reports its own evidence as `0 of the dropped items map to ...`, `0 deliverables cited as missing`, or a similar empty-evidence signal, drop the tag and re-score. The gap-checks exist to catch the specific blind spots in the c09 post-mortem, not to over-flag.
 
-18. **Post-05/23 pass@k gate + Dim 12 retirement.** Two coupled rules from the 2026-05-23 spec sync:
+18. **Post-05/23 pass@k gate + Dim 12 changes.** Two coupled rules from the 2026-05-23 spec sync:
     - **Pass@k gate on Dim 21:** Justifications are only graded for criteria where all pass@k evaluations failed for that rubric/test. The framework's practical proxy is "non-empty `model_mistake_justification` text in `rubric_justifications_breakdown_json`." Skip Dim 21 evaluation for criteria with empty justification fields.
     - **`[Fail - Incorrect Evaluations]` is REMOVED.** Do NOT emit it. Use `[Non-Fail - Minor Incorrect Evaluations]` for any CB rating-correctness issue, regardless of count or severity. The canonical 057ad pattern (CB misreads model output across many criteria) yields Score 3-4 from Dim 12 alone post-05/23 — Score 2 must come from another dimension (Dim 8, Dim 21, or G5).
-    - The legacy tag `[Fail - Major Evaluation Error]` is also out of policy post-05/23.
+    - The legacy tag `[Fail - Major Evaluation Error]` is also REMOVED post-05/23.
 
 ---
 

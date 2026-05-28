@@ -2,7 +2,7 @@
 
 > **THIS IS THE CANONICAL CALIBRATION SOURCE.** When in doubt about how strictly to apply a dimension, refer here. The QC spec doc defines the rules; this doc shows how real QC auditors actually apply them.
 
-Built from 33 real audits across 2 weeks. Refresh via `openclaw_qc_auditor/scripts/build_calibration_corpus.py` when new data lands.
+Built from 33 real audits across 2 weeks. Last refreshed: **2026-05-24**. Refresh via `openclaw_qc_auditor/scripts/build_calibration_corpus.py` when new data lands.
 
 ---
 

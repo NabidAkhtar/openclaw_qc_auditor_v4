@@ -1,6 +1,8 @@
-# Gap-Checks Reference (v2 — post-c09 post-mortem)
+# Gap-Checks Reference (v2 — post-c09 post-mortem + G5 addition)
 
-Source: post-mortem analysis of task `post_mortem_task` (May 20, 2026), which scored Score 5 from the v1 calibrated auditor but Score 3 from the real human auditor. The post-mortem identified four framework-coverage blind spots; this file documents the four gap-checks that close them.
+Source: post-mortem analysis of task `post_mortem_task` (May 20, 2026), which scored Score 5 from the v1 calibrated auditor but Score 3 from the real human auditor. The post-mortem identified framework-coverage blind spots; this file documents the gap-checks that close them.
+
+> **Gap-checks:** G1 (Prompt Coverage), G2 (Rubric Pruning), G3 (Model Skipped Artifact), G4 (Model A Failure Rate), G5 (Desired-Outcome Leak, added 2026-05-23).
 
 > **These are checks layered on top of the 21 official QC dimensions.** They do not replace any dimension. They surface signals that the existing dimensions cannot see because of (a) the 05/04 removal of Desired Outcome Coverage as a graded dimension, and (b) the absence of a graded dimension that consumes `trajectory_validator_feedback`.
 
@@ -191,7 +193,7 @@ This matches the Ratings Validity formula in `reference/02_grading_scale.md`.
 2. Run G1 prompt coverage          → maybe add tag
 3. Run G2 rubric pruning           → maybe add tag
 4. Run G3 model skipped artifact   → maybe add tag
-5. Run G5 desired-outcome leak     → maybe add tag  (added 2026-05-23)
+5. Run G5 desired-outcome leak     → maybe add tag
 6. Run G4 model A failure rate     → always add informational
 7. Score:
      any [Fail] → 2

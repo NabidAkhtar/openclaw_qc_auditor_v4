@@ -80,11 +80,9 @@ For each rubric or unit test where all pass@k evaluations failed AND **Model A (
 
 (See `03_dimensions.md` → Failed Rubric/Unit Test Justification dimension and Ratings: Validity dimension.)
 
-## Step 12 — *(merged into Step 11 on 05/23)*
+---
 
-The pre-05/23 split between "Step 11: review per-criterion ratings" and "Step 12: evaluate failure justifications" is now consolidated. The rating review is no longer a stand-alone graded step; the justification review is gated on pass@k all-fail.
-
-## Step 12 — Tally the final score and select error categories *(renumbered from Step 13 on 05/23)*
+## Step 12 — Tally the final score and select error categories
 - Apply the **1-5 grading scale** (see `02_grading_scale.md`).
 - Use the lowest-dimension-wins rule.
 - Select the appropriate `[Fail - X]` / `[Non-Fail - X]` tags (see `04_error_categories.md`).

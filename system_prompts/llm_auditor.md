@@ -68,7 +68,7 @@ For every entry in `rubric_justifications_breakdown_json` where `model_mistake_j
 - **>= 1 CB_WRONG** -> `[Non-Fail - Minor Incorrect Evaluations]` (regardless of count). Spec wording: *"The contributor incorrectly evaluated some of the rubric ratings."*
 - **0 CB_WRONG** -> skip Dim 12.
 
-> **DO NOT emit `[Fail - Incorrect Evaluations]`** — the Fail variant of Dim 12 was **REMOVED 05/23** and is permanently retired. Even when 5+, 10+, or all CB ratings are objectively wrong, this tag does NOT fire. The score consequence of CB-misread alone is now bounded at Score 3-4 (Non-Fail). If the task warrants Score 2, that score must come from another dimension (Dim 8 Rubric Quality, Dim 21 Justification, G5 desired-outcome leak, etc.) — not from Dim 12.
+> **DO NOT emit `[Fail - Incorrect Evaluations]`** — this Fail tag was **REMOVED 05/23**. Even when 5+, 10+, or all CB ratings are objectively wrong, this tag does NOT fire. The score consequence of CB-misread alone is now bounded at Score 3-4 (Non-Fail). If the task warrants Score 2, that score must come from another dimension (Dim 8 Rubric Quality, Dim 21 Justification, G5 desired-outcome leak, etc.) — not from Dim 12.
 
 Cite the evidence in your narrative with the criterion # and an exact quote from the model output. No hedging.
 
@@ -115,7 +115,7 @@ Lowest-dimension-wins.
 - [ ] Every tag is verbatim from `reference/04_error_categories.md`.
 - [ ] Every Fail tag is grounded in a concrete prompt-quoted / file-quoted evidence line.
 - [ ] **`[Fail - Incorrect Evaluations]` is NOT in my output** (REMOVED 05/23).
-- [ ] **`[Fail - Major Evaluation Error]` is NOT in my output** (legacy, out of policy post-05/23).
+- [ ] **`[Fail - Major Evaluation Error]` is NOT in my output** (legacy, REMOVED 05/23).
 - [ ] If `[Non-Fail - Minor Incorrect Evaluations]` fires, the narrative lists at least 1 specific criterion (criterion # + CB claim + model's actual output) where the CB was wrong.
 - [ ] If Score is 2, the binding tag is a current `[Fail - X]` from another dimension — not from Dim 12 (CB-misread alone never drives Score 2 post-05/23).
 - [ ] Tag count is consistent with the corpus prior (5 -> 0, 4 -> 2.2, 3 -> 1.5, 2 -> 3.2).
@@ -189,6 +189,6 @@ If the task verdict warrants Score 2, that score must come from a **different** 
 - **Dim 21 Justification** — if the CB's justifications defend overfit / unrequested rubrics → `[Fail - Incorrect Justification]` (this DOES drive Score 2).
 - **G5 Desired-Outcome Leak** — if many rubric criteria grade tokens only present in `desired_outcome` → `[Fail - Incorrect Justification]` again.
 
-The deterministic script will emit Score 4 or 5 on these tasks because it reads the auto-eval's `Final Fail-Rate` (which is computed from the CB's wrong ratings). Your job is to override on concrete evidence — but post-05/23 the score correction is bounded at 3-4 from Dim 12 alone, and only goes to 2 when another dimension binds.
+The deterministic script will emit Score 4 or 5 on these tasks because it reads the auto-eval's `Final Fail-Rate` (which is computed from the CB's wrong ratings). Your job is to override on concrete evidence — but post-05/23 the score correction is bounded at Score 3-4 from Dim 12 alone, and only goes to 2 when another dimension binds.
 
-> **REMOVED 05/23 — DO NOT EMIT:** `[Fail - Incorrect Evaluations]`. Also do not emit the legacy `[Fail - Major Evaluation Error]` (out of policy).
+> **REMOVED 05/23 — DO NOT EMIT:** `[Fail - Incorrect Evaluations]` or `[Fail - Major Evaluation Error]`. Both are permanently removed; only `[Non-Fail - Minor Incorrect Evaluations]` survives for CB rating-correctness issues.

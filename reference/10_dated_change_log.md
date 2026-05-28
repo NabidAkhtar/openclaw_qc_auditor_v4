@@ -150,3 +150,4 @@ Every `ADDED` / `UPDATED` / `REMOVED` note in `QC_spec_doc.pdf`, in chronologica
 | Overlapping/Redundant exception | 2026-05-21 | Negative + positive may co-exist when isolating a specific prompt-set-up failure mode |
 | **pass@k gate on justifications** | **2026-05-23** | **Workflow Step 11 + Dim 21 only fire when all pass@k fail for a rubric/test** |
 | **`[Fail - Incorrect Evaluations]` retired** | **2026-05-23** | **Score-2 from CB-misread now requires a different dimension; Dim 12 misreads are Non-Fail only** |
+| Workflow Step 12 consolidated | 2026-05-23 | Pre-05/23 Step 11 (rating review) and Step 12 (justification) merged; justification review now gated on pass@k |
