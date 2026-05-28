@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Renata Ortiz",
+    "age": 20,
+    "role": "Daughter — UVA sophomore",
+    "style": "Gen Z casual: lowercase, abbrevs, 'lol' softener",
+    "initials": "RO"
+  },
+  {
+    "name": "Soledad Marin",
+    "age": 55,
+    "role": "Best friend — nonprofit director, knows everything",
+    "style": "Warm bilingual EN/ES, emoji-heavy, 'Mija!'",
+    "initials": "SM"
+  },
+  {
+    "name": "Grayson Wells",
+    "age": 38,
+    "role": "Junior Partner — Kendrick Sloane",
+    "style": "Casual-professional: 'Hey Adriana,' dashes, '— G'",
+    "initials": "GW"
+  },
+  {
+    "name": "Tomas Herrera",
+    "age": 59,
+    "role": "Ex-husband — logistics only",
+    "style": "Terse: no greeting, full stops, zero warmth",
+    "initials": "TH"
+  },
+  {
+    "name": "Fatima Youssef",
+    "age": 29,
+    "role": "3rd-year associate — Adriana's mentee",
+    "style": "Formal: 'Dear Adriana,' 'Best, Fatima'",
+    "initials": "FY"
+  }
+]

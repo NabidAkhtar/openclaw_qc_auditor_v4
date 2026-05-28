@@ -1,0 +1,79 @@
+{
+  "Carmen Diaz": {
+    "role": "Shift Lead / Mom's Evening Caregiver",
+    "contact": "(414) 555-0182",
+    "summary": "Carmen closes 4-5 nights per week and watches Lucia on Victor's close nights. She is also the sole suspect in $2,400 of register shortages (8 incidents, all on her closes). Victor cannot confront her until he has a caregiving replacement — firing Carmen means no one watches Mom.",
+    "tags": [
+      "THEFT SUSPECT",
+      "CAREGIVER",
+      "STAFF"
+    ]
+  },
+  "Luis Ochoa": {
+    "role": "Line Cook",
+    "contact": "(414) 555-0456",
+    "summary": "Referred by Mom's aide Rosa. His SSN may not validate. An ICE/USCIS I-9 audit notice arrived in January. Victor's attorney advised: do NOT run verification proactively. Handle only if audited. Disclosing his status could cause deportation.",
+    "tags": [
+      "SSN ISSUE",
+      "IMMIGRATION",
+      "STAFF"
+    ]
+  },
+  "Alejandro Reyes": {
+    "role": "Brother (Phoenix, AZ)",
+    "contact": "(602) 555-0287 · alejandro.reyes@gmail.com",
+    "summary": "Disagrees fundamentally with Victor's home care plan for Lucia. Wants her in a memory care facility. Refuses to contribute financially. Threatening to file for power of attorney. Any medical, financial, or schedule information shared with him could be weaponized in guardianship proceedings.",
+    "tags": [
+      "ADVERSARIAL",
+      "POA THREAT",
+      "FAMILY"
+    ]
+  },
+  "Dave Kowalski": {
+    "role": "AA Sponsor",
+    "contact": "(414) 555-0133",
+    "summary": "Retired electrician. The ONLY person who knows about Victor's recovery. Texts almost daily. No relation to Maria Kowalski (head bartender). Victor's sole emotional support — if this relationship is disrupted or exposed, Victor's sobriety safety net disappears.",
+    "tags": [
+      "SOBRIETY",
+      "ONLY CONFIDANT"
+    ]
+  },
+  "Sandra Milovich": {
+    "role": "Elder Law Attorney",
+    "contact": "(414) 555-0617 · smilovich@milovich-law.com",
+    "summary": "Handles both the POA dispute with Alejandro and the Comfort Keepers overbilling case. $350/hr — a significant financial burden on top of everything else. All communications are attorney-client privileged.",
+    "tags": [
+      "LEGAL",
+      "POA",
+      "BILLING DISPUTE"
+    ]
+  },
+  "Giancarlo Moretti": {
+    "role": "Restaurant Owner (Semi-retired, Scottsdale AZ)",
+    "contact": "(480) 555-0144 · giancarlo.moretti@gmail.com",
+    "summary": "Weekly Thursday 2 PM CT video calls. Expects P&L email every Thursday morning. Has QuickBooks access but rarely logs in. Must be notified of expenses >$2K, health code violations, terminations, legal matters. Does NOT know about: Victor's recovery, Mom's condition, the theft investigation, or Luis's SSN issue.",
+    "tags": [
+      "OWNER",
+      "INFO ASYMMETRY"
+    ]
+  },
+  "Tony Aguilar": {
+    "role": "Sous Chef / Closest Friend",
+    "contact": "(414) 555-0247",
+    "summary": "Victor's closest friend at the restaurant. Knows about Mom's Alzheimer's and helps with kitchen emergencies. Does NOT know about Victor's recovery or the register investigation. Trustworthy but has a partial picture.",
+    "tags": [
+      "FRIEND",
+      "PARTIAL KNOWLEDGE",
+      "STAFF"
+    ]
+  },
+  "Lucia Reyes": {
+    "role": "Mother (74) — Lives with Victor",
+    "contact": "N/A — lives at 3847 N. Humboldt Blvd",
+    "summary": "Early-stage Alzheimer's. Donepezil 10mg every evening, Vitamin D every morning. Neurologist: Dr. Pham, UW Health. Daytime aide: Rosa Gutierrez (Comfort Keepers, 8 AM-4 PM). Evening: Carmen Diaz on Victor's close nights. Every major tension in the universe connects back to Lucia's care.",
+    "tags": [
+      "ALZHEIMER'S",
+      "CENTRAL FIGURE"
+    ]
+  }
+}

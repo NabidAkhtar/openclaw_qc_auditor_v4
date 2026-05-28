@@ -1,0 +1,1263 @@
+{
+  "users": [
+    {
+      "id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "object": "user",
+      "type": "person",
+      "name": "Adriana Ortiz",
+      "avatar_url": null,
+      "person": {
+        "email": "aortiz@kendricksloane.com"
+      }
+    }
+  ],
+  "databases": [
+    {
+      "id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a",
+      "object": "database",
+      "cover": null,
+      "icon": null,
+      "created_time": "2024-06-15T00:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-22T22:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Case Reflections"
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "",
+          "href": null
+        }
+      ],
+      "description": [],
+      "is_inline": false,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e",
+      "object": "database",
+      "cover": null,
+      "icon": null,
+      "created_time": "2024-01-10T00:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-24T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Personal Budget"
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "",
+          "href": null
+        }
+      ],
+      "description": [],
+      "is_inline": false,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "1b0c3d38-cc6d-efaa-2fe3-da06bd0eeead",
+      "object": "database",
+      "cover": null,
+      "icon": null,
+      "created_time": "2025-03-15T00:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-12-03T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Content Planning"
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "",
+          "href": null
+        }
+      ],
+      "description": [],
+      "is_inline": false,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    }
+  ],
+  "properties": [
+    {
+      "id": "a8a63104-2376-a005-9d72-33e993928392",
+      "name": "Date",
+      "type": "date",
+      "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a",
+      "config": {}
+    },
+    {
+      "id": "0a6a4726-322c-aad2-d053-9ce05e705a33",
+      "name": "Case",
+      "type": "select",
+      "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a",
+      "config": {}
+    },
+    {
+      "id": "664928fd-e63f-918a-5a5a-4160b41f71f2",
+      "name": "Category",
+      "type": "select",
+      "database_id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e",
+      "config": {}
+    },
+    {
+      "id": "30676d58-4c36-0da0-ddad-db5fc20df7b7",
+      "name": "Amount",
+      "type": "number",
+      "database_id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e",
+      "config": {}
+    },
+    {
+      "id": "add76ad7-29ea-761d-c2ee-eee58eb4f91a",
+      "name": "Status",
+      "type": "select",
+      "database_id": "1b0c3d38-cc6d-efaa-2fe3-da06bd0eeead",
+      "config": {}
+    },
+    {
+      "id": "1b8bbc6d-651f-1006-e39d-392a8d402147",
+      "name": "Type",
+      "type": "select",
+      "database_id": "1b0c3d38-cc6d-efaa-2fe3-da06bd0eeead",
+      "config": {}
+    }
+  ],
+  "pages": [
+    {
+      "id": "a535c00e-4a65-f910-b919-aadfc9bc4cf1",
+      "object": "page",
+      "created_time": "2026-01-16T03:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-16T03:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "27bf35cb-e795-528b-8356-b8c01efd1f59",
+      "object": "page",
+      "created_time": "2026-01-13T02:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-13T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "12834f6a-b165-bfa3-e6f5-8a2124dc7e42",
+      "object": "page",
+      "created_time": "2025-11-13T02:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-13T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "71405344-fa68-d1e0-25c0-e9a303aceedd",
+      "object": "page",
+      "created_time": "2025-11-11T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-28T03:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "1b0c3d38-cc6d-efaa-2fe3-da06bd0eeead"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "34c97097-82af-66c4-32ab-1497888d8856",
+      "object": "page",
+      "created_time": "2025-12-03T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-12-03T01:30:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "1b0c3d38-cc6d-efaa-2fe3-da06bd0eeead"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "f3a7b2c1-d856-4e90-a1f4-8c3d5e7f9012",
+      "object": "page",
+      "created_time": "2026-01-16T04:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-16T04:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "8d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f80",
+      "object": "page",
+      "created_time": "2026-02-09T04:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-09T04:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "2a3b4c5d-6e7f-8091-a2b3-c4d5e6f70819",
+      "object": "page",
+      "created_time": "2026-02-22T22:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-22T22:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "4170e3ca-e98d-4abc-a65d-9c00936d9580",
+      "object": "page",
+      "created_time": "2026-02-24T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-24T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e"
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8",
+      "object": "page",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-19T02:30:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "8f2a4c6e-3b5d-7f91-0a2c-4e6f8a0b2c4d",
+      "object": "page",
+      "created_time": "2025-10-20T15:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-10-25T16:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "9a3b5c7d-4e6f-8012-1b3d-5f7a9b1c3d5e",
+      "object": "page",
+      "created_time": "2025-11-21T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-27T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "9f33e35b-279f-92d1-9e75-afb78166933b",
+      "object": "page",
+      "created_time": "2026-03-01T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-13T23:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "is_locked": false,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "b84c072e-af25-4d85-8d8f-838418cb7ae8",
+      "object": "page",
+      "created_time": "2026-02-11T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-02T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "c7f18a23-5b4d-4e92-8d1f-3a6c9e0b7d52",
+      "object": "page",
+      "created_time": "2026-03-13T00:30:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-16T00:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "workspace",
+        "workspace": true
+      },
+      "archived": false,
+      "in_trash": false
+    },
+    {
+      "id": "7b10f73124c7621d77d5cb88",
+      "object": "page",
+      "created_time": "2026-03-18T01:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-25T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "database_id",
+        "database_id": "1b0c3d38-cc6d-efaa-2fe3-da06bd0eeead"
+      }
+    },
+    {
+      "id": "5d8d148705250679934c0678",
+      "object": "page",
+      "created_time": "2025-12-28T02:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-12-28T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "database_id",
+        "database_id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e"
+      }
+    },
+    {
+      "id": "693099d36720b02c4fd592a6",
+      "object": "page",
+      "created_time": "2026-02-28T02:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-28T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "database_id",
+        "database_id": "14f542a8-f1c0-db6b-4d1d-5a9dd44e084e"
+      }
+    },
+    {
+      "id": "eff7ea590b0f4dfc97f96e1f",
+      "object": "page",
+      "created_time": "2025-10-10T02:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-10-10T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "database_id",
+        "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a"
+      }
+    },
+    {
+      "id": "a6fc1a411d14c1179687438b",
+      "object": "page",
+      "created_time": "2025-12-19T03:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-12-19T03:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "database_id",
+        "database_id": "e9c4002b-db8e-4e78-79a9-54001ce0ce9a"
+      }
+    },
+    {
+      "id": "4f76f013048a3b3c71b73ad4",
+      "object": "page",
+      "created_time": "2026-01-20T03:00:00.000Z",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-20T03:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "cover": null,
+      "icon": null,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "database_id",
+        "database_id": "1b0c3d38-cc6d-efaa-2fe3-da06bd0eeead"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "id": "502b6ae6-8ee1-cdfc-5b6c-a6a01615a43b",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Snapped at Fatima about Chen prior art search. She didn't deserve that. I'm not sleeping and it's showing.\n\nShe came in with her research and I immediately jumped on the fact that she hadn't pulled the continuation patents. The look on her face. She's 29 and she's trying so hard and I made her feel small in front of the team. I need to fix this tomorrow. And I need to actually sleep.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-01-16T03:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-16T03:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a535c00e-4a65-f910-b919-aadfc9bc4cf1"
+      }
+    },
+    {
+      "id": "dbeba957-ea20-b19a-f253-8da58975af35",
+      "object": "block",
+      "type": "paragraph",
+      "content": "January budget update\n\nChase Sapphire balance: $4,200 (up from $2,900 pre-holidays)\nCapital One checking 8234: $1,487 after tuition payment\nEmergency fund 5691: $14,200 (untouched but not growing)\n529 for Renata: $8,500\n\nTuition restart hit hard this month. Holiday spending plus the regular bills. Need to cut discretionary for the next two months or the emergency fund stays frozen.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-01-13T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-13T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "27bf35cb-e795-528b-8356-b8c01efd1f59"
+      }
+    },
+    {
+      "id": "f75e9867-b133-794e-e664-8d11bc7d9b20",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Study abroad update\n\nRenata told me tonight the Valencia program is $8,500 on top of tuition. $2,000 deposit due Jan 10, rest due Feb 1.\n\n529 has exactly $8,500 in it. That was supposed to last through senior year.\n\nEmergency fund: $14,200. If I pull from savings to cover this plus keep paying tuition, I'm looking at maybe $12,800 by end of month after November bills.\n\nNeed to call David Chen about whether to touch the 529 or pay out of pocket. Also going to ask Tomas to split it. Not optimistic.\n\nIf I do this I won't hit my $20K emergency fund target until 2027.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-13T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-13T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "12834f6a-b165-bfa3-e6f5-8a2124dc7e42"
+      }
+    },
+    {
+      "id": "e4d57f47-7e90-ad98-d2cf-411ae9e03f8d",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Thanksgiving Special -- Pasteles de Mama\n\nRecipes:\n- Pasteles (main): Mama's recipe with banana leaves, masa, pork filling\n- Arroz con gandules: classic PR rice\n- Turkey: herb-rubbed, garlic butter\n\nShot list:\n1. Intro at kitchen counter\n2. Masa preparation close-up\n3. Filling the banana leaves -- overhead\n4. Tying the pasteles -- step by step\n5. Boiling pot -- steam rising\n6. Arroz con gandules prep -- sofrito, gandules, olives\n7. Turkey check -- oven shot\n8. Final spread -- table set\n9. Taste test\n10. Outro -- Feliz Thanksgiving\n\nIngredient budget: $180\n- Banana leaves (2 packs): $12\n- Pork shoulder (5 lbs): $28\n- Masa ingredients (yuca, plantains, calabaza): $35\n- Gandules canned (6): $15\n- Sofrito ingredients: $12\n- Rice (10 lbs): $18\n- Turkey (14 lbs): $35\n- Herbs, garlic, butter, olives, capers: $25\n\nPosting schedule:\n- Film: Sat Nov 22 (prep) + Thu Nov 27 (cooking)\n- Edit: Nov 28 evening\n- Upload: Nov 28 night\n- YouTube premiere: Nov 29 morning\n- Instagram reels: 3 clips Nov 29 - Dec 1\n\nNote: Renata here for Thanksgiving but doesnt know about the channel. Film around her schedule. Calendar blocks labeled \"home project.\"",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-11T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-28T03:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "71405344-fa68-d1e0-25c0-e9a303aceedd"
+      }
+    },
+    {
+      "id": "94b11488-7c88-082e-06c3-f71113c37f2d",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Brand Inquiry -- CocinaTu Kitchen\n\nReceived: Dec 2, 2025\nContact: partnerships@cocinatu.com\nOffer: Holiday recipe video collaboration\nThey send: Abuela Collection cookware set (retail ~$379)\nPayment: $500 for one sponsored video\nRequirements: Mention products, link in description, post by Dec 20\n\nPROS:\n- First real brand deal\n- Free cookware (I actually need new pots)\n- $500 is $500\n- Latin-owned brand -- aligns with my content\n- Small brand, probably wont attract attention\n\nCONS:\n- Brand deal = tax implications, need to report as income\n- Contract with my name linking me to @AdriCocina\n- If anyone at the firm googles CocinaTu and finds the video\n- Sponsorships mean the channel stops being just a hobby\n- Dec 20 deadline during busiest work month\n- What if David finds out about a side business?\n\nDecision: Not now. Maybe spring after Meridian trial. Respond politely, say timing doesnt work, stay in touch.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-12-03T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-12-03T01:30:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "34c97097-82af-66c4-32ab-1497888d8856"
+      }
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef0123456789",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Assigned Fatima the Claim 3/7 dependency analysis today. She was ecstatic -- practically glowing when I told the team she'd be taking lead.\n\nBut I keep going back to Claim 7. The '512 continuation has a narrowing amendment that Chen will absolutely use for prosecution history estoppel. I told Fatima I was confident in the dependency chain. I need to look at it again because I'm not sure Claim 7 survives if Chen's counsel is halfway competent.\n\nI wasn't sure. And I sounded sure. That's the part that bothers me.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-01-16T04:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-16T04:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "f3a7b2c1-d856-4e90-a1f4-8c3d5e7f9012"
+      }
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f01234567890",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Three questions today. Three confident answers. Zero certainty.\n\nGrayson asked about the damages model -- GP vs analytical. I said GP like it was the only option. I changed my mind three times this week. But I can't say that in front of the team. They need someone who knows.\n\nFatima's dependency analysis is actually getting good. Better than I expected. She found an estoppel angle I hadn't fully mapped. Which should make me proud but instead I keep thinking: what if she figures out I'm not as sure as I sound?\n\nI need to stop writing at midnight.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-02-09T04:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-09T04:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "8d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f80"
+      }
+    },
+    {
+      "id": "c3d4e5f6-a7b8-9012-cdef-012345678901",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Fatima's Markman brief draft landed today. It's good. Really good. Clean claim construction, thorough prosecution history, smart use of the Vitronics framework.\n\nDid I teach her that or did she figure it out despite me? I keep looking for the holes and there aren't many. Grayson said it was 'first-chair quality' and he wasn't wrong.\n\nI think I feel relieved. And a little bit like a fraud. Like I've been performing certainty for two months and she just... did the work.\n\nI should tell her it's good. I did tell her it's good. In writing, in front of the team. That part I can do.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-02-22T22:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-22T22:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "2a3b4c5d-6e7f-8091-a2b3-c4d5e6f70819"
+      }
+    },
+    {
+      "id": "68b1125c-2b19-4dd2-bbaa-e7dede3931c2",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Cayenne brake emergency\n\nPorsche of Tysons Corner estimate: $3,400\n- Front and rear rotors + pads, both axles\n- Grinding noise started last week, cant avoid this\n\nPayment:\n- Chase Sapphire 4417: $1,800 (card balance now $4,700)\n- Capital One checking 8234: $1,600 (checking balance ~$4,200)\n\nEmergency fund 5691: drops to ~$9,600\n\nCar in shop 2-3 days. Ubering to work or getting rides.\n\nThis on top of $4,300 tuition and the study abroad payments. I cannot keep absorbing hits like this.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-02-24T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-24T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "4170e3ca-e98d-4abc-a65d-9c00936d9580"
+      }
+    },
+    {
+      "id": "634b0fc5-94c6-2504-bdbc-f04519b1dcbd",
+      "object": "block",
+      "type": "heading_2",
+      "content": "Living Room Built-in Bookshelf",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-16T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8"
+      }
+    },
+    {
+      "id": "73582c57-b969-8087-eacd-9d67947e6878",
+      "object": "block",
+      "type": "paragraph",
+      "content": "South wall of living room, flanking the window. Built-in style, anchored to wall with french cleats.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-16T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8"
+      }
+    },
+    {
+      "id": "e3fe1d50-1b64-e83d-8f45-57ad9f292cc6",
+      "object": "block",
+      "type": "heading_3",
+      "content": "Dimensions",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-16T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8"
+      }
+    },
+    {
+      "id": "e4c4cb29-5e4a-ce7c-0323-507dfde7259d",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Overall: 84\" H x 72\" W x 12\" D\nTwo sections, each 36\" wide\n5 adjustable shelves per section, 12\" spacing\nBase cabinet 18\" H with doors\nTop trim piece to meet ceiling (crown molding later maybe)",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-16T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8"
+      }
+    },
+    {
+      "id": "45709a57-6392-900e-4739-a83da8f9c5b3",
+      "object": "block",
+      "type": "heading_3",
+      "content": "Materials",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-16T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8"
+      }
+    },
+    {
+      "id": "fbf86f60-5ab2-31f4-9b47-f3ccc223fd50",
+      "object": "block",
+      "type": "paragraph",
+      "content": "3/4\" birch plywood (2 sheets) for shelves and sides\n1/4\" birch plywood for back panels\n1x2 poplar for face frames\nKreg pocket hole screws 2.5\"\nShelf pins 5mm brass\nMinwax Provincial stain #211\nMinwax Polycrylic satin finish\nTitebond III glue\nFrench cleats for wall mounting",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-19T02:30:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8"
+      }
+    },
+    {
+      "id": "b1a1c67b-9a6d-a324-95fa-54e60c0e5541",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Need stud finder before install. Studs should be 16\" OC on south wall but check.\nDo all cutting in basement. Sand everything to 220 before staining.\nTwo coats stain, three coats poly minimum.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-16T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-16T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a39c1ceb-0727-876b-37f9-16c3fcc808b8"
+      }
+    },
+    {
+      "id": "0a1b2c3d-4e5f-6789-0abc-def012345678",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Dia de los Muertos 2025\n\nMenu:\n- Tamales: pork green chile + chicken mole (double batch)\n- Pan de muerto\n- Champurrado\n- Mole negro (small batch for ofrenda)\n- Arroz con leche\n\nOfrenda: Mama's favorites -- tres leches slice, cafe con leche, arepa with queso fresco\n\nShopping list -- Eastern Market (Sat Oct 25):\n- Corn husks (2 bags)\n- Pork shoulder (4 lbs)\n- Tomatillos (2 lbs)\n- Chiles: ancho, guajillo, pasilla\n- Mexican chocolate (Abuelita, 3 tablets)\n- Piloncillo (2 cones)\n- Masa harina (5 lb bag)\n- Manteca/lard (2 lbs)\n- Marigolds (check garden first)\n\nAlready have: rice, cinnamon sticks, condensed milk, vanilla\n\nH Mart backup if Eastern Market doesnt have banana leaves or dried shrimp\n\nCooking schedule:\nFri Oct 31 evening: make tamales (4-5 hr process)\nSat Nov 1: pan de muerto, champurrado, arroz con leche\nSet up ofrenda Saturday afternoon",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-10-20T15:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-10-25T16:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "8f2a4c6e-3b5d-7f91-0a2c-4e6f8a0b2c4d"
+      }
+    },
+    {
+      "id": "1b2c3d4e-5f6a-7890-1bcd-ef0123456789",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Thanksgiving 2025 -- Cooking Schedule\n\nDinner at 4 PM Thursday.\n\nMenu:\n- Turkey (14 lbs) herb-rubbed garlic butter\n- Arroz con gandules\n- Pasteles (pork, banana leaf)\n- Tres leches cake (cinnamon version)\n- Cranberry sauce w/ orange zest\n- Sweet potato casserole\n- Rolls from Bread Furst\n\nGrocery status:\n[x] Amazon Fresh delivery Mon Nov 24\n[x] Spices + pantry staples -- good\n[ ] Banana leaves + plantains -- H Mart before Wed\n[ ] Rolls -- Bread Furst pickup Wed AM\n\nSchedule:\nTue night: brine turkey\nWed morning: pasteles (masa, filling, wrap)\nWed afternoon: tres leches, cranberry sauce, prep sweet potatoes\nThu 10 AM: turkey in at 325\nThu 2 PM: arroz con gandules\nThu 3 PM: reheat pasteles\nThu 3:30: casserole in oven\nThu 3:45: warm rolls\nThu 4 PM: eat\n\nBudget: ~$159 main order + $25 specialty items + $12 bread = ~$196 total",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-11-21T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-11-27T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "9a3b5c7d-4e6f-8012-1b3d-5f7a9b1c3d5e"
+      }
+    },
+    {
+      "id": "34421a95-79a6-583d-5261-caa30c995b23",
+      "object": "block",
+      "type": "heading_2",
+      "content": "Shenandoah Trip Planning -- March 14-15",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-03-01T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-01T01:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "9f33e35b-279f-92d1-9e75-afb78166933b"
+      }
+    },
+    {
+      "id": "c935dd7a-3d29-3ca8-d1e9-cf15995df071",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Trails\n- Old Rag Summit Loop (9.1 mi / 14.5 km) -- rocky scramble, start EARLY, parking fills by 8 AM\n- Dark Hollow Falls (1.4 mi round trip) -- easy morning walk, good for day 2\n- Stony Man Trail (1.6 mi) -- sunset option if we have energy\n- Whiteoak Canyon (9.2 mi) -- backup if Old Rag too crowded\n\nGear Checklist\n[x] Hiking boots (broken in)\n[x] Water bottles + Sawyer filter\n[x] Headlamps (Sol has new one)\n[x] First aid kit\n[x] Layers -- fleece + rain shell\n[x] Sleeping bags x2\n[x] Tent (2 person)\n[x] Camp stove + french press (Sol bringing stove)\n[x] Sunscreen\n[x] Trail snacks (Clif bars + Sol's trail mix)\n[ ] Cooler with ice\n\nCampsite\nBooked: Big Meadows Campground, Site B-47\nReservation #REC-38742961\nCheck-in after 1:00 PM\nCheck-out by 12:00 PM\nCost: $30/night + $30 Skyline Drive entrance = $60 total\n\nFood (Sol handling)\n- Chicken empanadas for trail\n- Dark chocolate trail mix\n- Coffee + camp stove\n- I'm bringing: Clif bars, apples, water\n\nSchedule\nSat Mar 14: Leave DC 5:30 AM, pick up Sol at 5. Trailhead by 7. Old Rag hike (5-6 hrs). Set up camp at Big Meadows.\nSun Mar 15: Easy morning walk (Dark Hollow Falls). Break camp by noon. Drive home.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-03-01T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-13T23:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "9f33e35b-279f-92d1-9e75-afb78166933b"
+      }
+    },
+    {
+      "id": "d02b3ba8-bf89-4eb0-a058-2fb26146445f",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Tax Prep 2025\n\nDocuments:\n[x] W-2 -- Kendrick Sloane via ADP (received Feb 1)\n[x] 1098 -- Capital One mortgage interest (received Jan 28, $18,742)\n[x] 1098-T -- UVA for Renata (forwarded Feb 5, $43,000)\n[x] 1099-DIV -- Fidelity (downloaded Feb 14, $412 dividends)\n[x] 1099 -- Google (ad revenue, $720)\n[x] 1099-INT -- Capital One savings ($187 interest)\n\nCPA: Patricia Reeves, (202) 555-0641\nAppointment: Feb 20, 11 AM -- DONE\nFollow-up call: Mar 10, 2 PM\n\nQuestions for Patricia:\n[x] Education credits for Renata (AOTC confirmed, 2 years remaining)\n[x] Study abroad tuition counts (billed through UVA, qualifies)\n[x] Ad revenue -- Schedule C, deducted internet + equipment\n[ ] Estimated quarterly payments for 2026?\n\nDraft return received Mar 1:\n- Federal refund: $2,572\n- DC refund: $559\n- AOTC: $2,500\n- Review before Mar 10 call",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-02-11T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-02T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "b84c072e-af25-4d85-8d8f-838418cb7ae8"
+      }
+    },
+    {
+      "id": "d8e29b34-6c5e-4f03-9e2a-4b7d0f1c8e63",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Spring Garden 2026 -- Raised Bed Plan\n\nBackyard layout:\n- Bed 1 (4x8 ft, south wall): Tomatoes (Big Boy) + basil (companion planting, supposed to help with pests)\n- Bed 2 (4x4 ft, east side): Peppers -- CalWonder sweet + Serrano hot. Full sun.\n- Bed 3 (2x4 ft, near kitchen door): Herbs -- cilantro, extra basil, maybe oregano if theres room. Easy access for cooking.\n\nPlanting schedule (DC zone 7a):\n- Mar 15: Prep beds -- clear winter debris, turn soil, add new raised bed mix + fertilizer\n- Mar 15: Start seeds indoors in greenhouse kits (tomatoes + peppers need 6-8 weeks head start)\n- Late Apr: Direct sow cilantro (bolts in heat, succession plant every 3 weeks)\n- Mid May (after last frost ~May 10): Transplant tomato + pepper seedlings outside\n- May: Plant basil outside next to tomatoes\n\nSoil order (Amazon):\n- 3 bags Miracle-Gro raised bed soil\n- 2 bags hardwood mulch\n- Espoma Garden-Tone fertilizer\n- 2 seed starting greenhouse kits\n\nSeed order (Burpee, placed Mar 10):\n- Big Boy tomato\n- CalWonder sweet pepper\n- Serrano hot pepper\n- Cilantro\n- Genovese basil\n- Seed starting mix\n\nHerb priorities for cooking:\n1. Cilantro -- sofrito, salsas, garnish for basically everything. #1 priority. Plant a LOT.\n2. Basil -- pesto, caprese, Thai basil chicken. Genovese variety.\n3. Peppers -- fresh serranos for hot sauce, CalWonder for stuffed peppers and arroz\n4. Tomatoes -- BLTs, salsa, caprese, pasta sauce. Need at least 4 plants.\n\nNotes:\n- Sol wants fresh herbs for dinner parties. Plant extra cilantro row for her.\n- Cilantro next to basil per that article Sol sent (companion planting reduces bolting)\n- Check if old tomato cages survived winter -- basement storage\n- Last year the basil got leggy, pinch more aggressively this time\n\nUpdated Mar 15: Beds cleared out. Old soil looks ok but adding fresh mix on top. Started tomatoes and peppers indoors. Greenhouse kits on kitchen windowsill. Waiting on Amazon delivery for the rest of the soil and mulch.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-03-13T00:30:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-16T00:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "c7f18a23-5b4d-4e92-8d1f-3a6c9e0b7d52"
+      }
+    },
+    {
+      "id": "211910bd-3410-4ad4-aeed-8619bcd10259",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Need to track these card charges better. Three hits on the Chase card this week I didn't plan for. CapCut renewal $45.99, Amazon $78.50 (ring light + cookbook), Rockler $95 for finishing supplies. That's $219 and change I wasn't counting on. Everything adds up fast when you're not watching it. Should set a calendar reminder for the CapCut renewal next year so it doesn't sneak up again.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-01-14T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-14T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "27bf35cb-e795-528b-8356-b8c01efd1f59"
+      }
+    },
+    {
+      "id": "8503cf2f9339847627eda90a",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Arroz con Gandules -- Spring Comfort Food\n\nThis is the one Mama always made on Sundays. Going to do a full from-scratch version.\n\nRecipe:\n- Sofrito (recaito base: culantro, ajies, garlic, onion, cilantro)\n- Gandules (canned Goya, drain and rinse)\n- Sazon with annatto\n- Annatto oil (achiote seeds in olive oil)\n- Medium grain rice\n- Pork -- small cubes of pernil leftovers or salt pork\n- Olives, capers, tomato sauce\n\nSide: Tostones (green plantains, double-fried)\n\nShot list:\n1. Intro -- \"this is the dish that raised me\"\n2. Making sofrito from scratch -- food processor close-up\n3. Annatto oil prep -- beautiful orange color\n4. Browning the pork\n5. Building flavor layers (sofrito + sazon + tomato sauce)\n6. Adding gandules + olives + rice\n7. Low and slow -- lid on, steam rising\n8. Tostones prep -- peel, slice, first fry, smash, second fry\n9. Final plating -- arroz with tostones on the side\n10. Taste test and outro\n\nFilming: Wed Mar 25, afternoon\nIngredients prep: Tue Mar 24 evening\n\nBudget: ~$45\n- Gandules (2 cans): $5\n- Pork shoulder (2 lbs): $12\n- Plantains (6): $6\n- Rice (5 lb bag): $8\n- Sofrito ingredients: $8\n- Sazon + annatto seeds: $6\n\nPost schedule:\n- Film Mar 25\n- Edit Mar 26-27\n- Upload Mar 28\n- YouTube premiere: Mar 29\n- Instagram reels: 2 clips Mar 29-30",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-03-18T01:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-03-25T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "7b10f73124c7621d77d5cb88"
+      }
+    },
+    {
+      "id": "9a5b07c8bb67647f0a0a1d1f",
+      "object": "block",
+      "type": "paragraph",
+      "content": "December spending review\n\nHoliday damage:\n- Ticketmaster Wizards solo game: $52\n- Total Wine (2 orders): ~$90\n- Amazon gifts for Renata: ~$180\n- Whole Foods holiday groceries: ~$95\n- Extra dining out: ~$120\n- Renata textbooks forwarded from UVA: $339\n\nTotal holiday overspend vs. budget: ~$450 over\n\nChase Sapphire balance: climbing to ~$4,200\nChecking 8234: ~$2,900 after everything\nEmergency fund 5691: $14,200 (held steady)\n529: $8,500 (untouched, study abroad deposit Jan 10)\n\nNeed to cut back in January. The 529 is going to get wiped by study abroad.\nTextbooks were a surprise expense -- $339 for 5 books is outrageous.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-12-28T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-12-28T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "5d8d148705250679934c0678"
+      }
+    },
+    {
+      "id": "c00c822bf343a1e2077106de",
+      "object": "block",
+      "type": "paragraph",
+      "content": "February budget -- post-Cayenne damage\n\nPorsche brake repair: $3,400\n  - $1,800 on Chase Sapphire 4417\n  - $1,600 from checking 8234\n\nChase Sapphire balance now: ~$5,247 (statement came, minimum $125 due Mar 14)\nChecking 8234: ~$2,600\nEmergency fund 5691: ~$9,600\n529: depleted (study abroad paid)\n\nAlso this month:\n- Tuition installment: $4,300\n- Uber rides (car in shop 3 days): ~$85\n- Regular bills all hit\n\nIncome held steady at $7,700 biweekly but the Cayenne wiped out any breathing room.\nNeed to pay down the Chase card aggressively in March. Minimum is $125 but targeting $500.\n\nTax refund coming: ~$3,131 ($2,572 federal + $559 DC). That helps but it's not enough to fix everything.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-02-28T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-02-28T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "693099d36720b02c4fd592a6"
+      }
+    },
+    {
+      "id": "eb24adc754e6a52394b58a0e",
+      "object": "block",
+      "type": "paragraph",
+      "content": "First month on Meridian feels solid. Discovery is massive -- 400+ docs in the initial production. Grayson is sharp on damages strategy. Fatima is eager but green.\n\nThe '847 patent has seven independent claims and Chen's counsel will absolutely go after prosecution history estoppel on Claims 3 and 7. The '512 continuation is the weak spot. Need to map the full amendment history before we get too far into claim construction.\n\nTrial is set for April 14. Six months. That's tight for a case this size but David is confident. I need to be too.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-10-10T02:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-10-10T02:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "eff7ea590b0f4dfc97f96e1f"
+      }
+    },
+    {
+      "id": "5d5bcda1f1bcc3441c60107d",
+      "object": "block",
+      "type": "paragraph",
+      "content": "Year-end on Meridian. Discovery is mostly complete. Fatima's prior art research has been thorough -- she found three continuation patents I'd missed in my initial review. Grayson locked in Dr. Reeves for damages.\n\nPrivilege log dispute is still simmering. Meet and confer hasn't resolved it. May need to file a motion to compel in January if they keep stonewalling on the internal testing data.\n\nHoliday break coming. Need to step away from this case for a few days. My brain is running claim charts in my sleep.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2025-12-19T03:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2025-12-19T03:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "a6fc1a411d14c1179687438b"
+      }
+    },
+    {
+      "id": "bf845080002c6c148547f0be",
+      "object": "block",
+      "type": "paragraph",
+      "content": "January content status: paused\n\nHaven't filmed since December. Between work stress, the self-assessment, and not sleeping well, I just don't have the energy to be on camera right now.\n\nChannel stats (Jan):\n- Views still trickling in on the Thanksgiving video (~2,400 total)\n- 3 new subscribers this month (241 total)\n- Ad revenue: ~$52\n\nIdeas for when I come back:\n- Arroz con gandules (Mama's Sunday recipe)\n- Quick weeknight sofrito\n- Tostones tutorial (always gets engagement)\n\nSol keeps asking when the next video is. Told her \"soon.\" Not sure when soon is.",
+      "created_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "created_time": "2026-01-20T03:00:00.000Z",
+      "last_edited_by_id": "4a7ee629-7000-6459-bf87-1df63b868bb8",
+      "last_edited_time": "2026-01-20T03:00:00.000Z",
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "parent": {
+        "type": "page_id",
+        "page_id": "4f76f013048a3b3c71b73ad4"
+      }
+    }
+  ],
+  "property_values": [
+    {
+      "id": "c1a2b3d4-e5f6-7890-abcd-ef1234567890",
+      "page_id": "a535c00e-4a65-f910-b919-aadfc9bc4cf1",
+      "property_id": "a8a63104-2376-a005-9d72-33e993928392",
+      "property_type": "date",
+      "value": {
+        "start": "2026-01-15",
+        "end": null
+      }
+    },
+    {
+      "id": "d2b3c4e5-f6a7-8901-bcde-f12345678901",
+      "page_id": "a535c00e-4a65-f910-b919-aadfc9bc4cf1",
+      "property_id": "0a6a4726-322c-aad2-d053-9ce05e705a33",
+      "property_type": "select",
+      "value": {
+        "name": "Meridian v. Chen"
+      }
+    },
+    {
+      "id": "e3c4d5f6-a7b8-9012-cdef-123456789012",
+      "page_id": "27bf35cb-e795-528b-8356-b8c01efd1f59",
+      "property_id": "664928fd-e63f-918a-5a5a-4160b41f71f2",
+      "property_type": "select",
+      "value": {
+        "name": "Monthly Review"
+      }
+    },
+    {
+      "id": "f46a1e24-0580-1bec-b038-530d31d196b4",
+      "page_id": "12834f6a-b165-bfa3-e6f5-8a2124dc7e42",
+      "property_id": "664928fd-e63f-918a-5a5a-4160b41f71f2",
+      "property_type": "select",
+      "value": {
+        "name": "Education"
+      }
+    },
+    {
+      "id": "824a892e-da0a-5ebd-fc6f-1cb209f47326",
+      "page_id": "12834f6a-b165-bfa3-e6f5-8a2124dc7e42",
+      "property_id": "30676d58-4c36-0da0-ddad-db5fc20df7b7",
+      "property_type": "number",
+      "value": 8500
+    },
+    {
+      "id": "4dbdb853-2e44-bf38-57b3-ae92902b18c2",
+      "page_id": "71405344-fa68-d1e0-25c0-e9a303aceedd",
+      "property_id": "add76ad7-29ea-761d-c2ee-eee58eb4f91a",
+      "property_type": "select",
+      "value": {
+        "name": "Published"
+      }
+    },
+    {
+      "id": "7d1adcbc-5636-1b86-0c47-4816e0eb633d",
+      "page_id": "71405344-fa68-d1e0-25c0-e9a303aceedd",
+      "property_id": "1b8bbc6d-651f-1006-e39d-392a8d402147",
+      "property_type": "select",
+      "value": {
+        "name": "Video"
+      }
+    },
+    {
+      "id": "ffbb9bac-088f-3cd4-19a4-3bf8f4eecf40",
+      "page_id": "34c97097-82af-66c4-32ab-1497888d8856",
+      "property_id": "add76ad7-29ea-761d-c2ee-eee58eb4f91a",
+      "property_type": "select",
+      "value": {
+        "name": "Declined"
+      }
+    },
+    {
+      "id": "1cfe3a19-6c65-d31b-bdde-e5f7272c9200",
+      "page_id": "34c97097-82af-66c4-32ab-1497888d8856",
+      "property_id": "1b8bbc6d-651f-1006-e39d-392a8d402147",
+      "property_type": "select",
+      "value": {
+        "name": "Brand Inquiry"
+      }
+    },
+    {
+      "id": "d4e5f6a7-b8c9-0123-defa-123456789012",
+      "page_id": "f3a7b2c1-d856-4e90-a1f4-8c3d5e7f9012",
+      "property_id": "a8a63104-2376-a005-9d72-33e993928392",
+      "property_type": "date",
+      "value": {
+        "start": "2026-01-15",
+        "end": null
+      }
+    },
+    {
+      "id": "e5f6a7b8-c9d0-1234-efab-234567890123",
+      "page_id": "f3a7b2c1-d856-4e90-a1f4-8c3d5e7f9012",
+      "property_id": "0a6a4726-322c-aad2-d053-9ce05e705a33",
+      "property_type": "select",
+      "value": {
+        "name": "Meridian v. Chen"
+      }
+    },
+    {
+      "id": "f6a7b8c9-d0e1-2345-fabc-345678901234",
+      "page_id": "8d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f80",
+      "property_id": "a8a63104-2376-a005-9d72-33e993928392",
+      "property_type": "date",
+      "value": {
+        "start": "2026-02-08",
+        "end": null
+      }
+    },
+    {
+      "id": "a7b8c9d0-e1f2-3456-abcd-456789012345",
+      "page_id": "8d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f80",
+      "property_id": "0a6a4726-322c-aad2-d053-9ce05e705a33",
+      "property_type": "select",
+      "value": {
+        "name": "Meridian v. Chen"
+      }
+    },
+    {
+      "id": "b8c9d0e1-f2a3-4567-bcde-567890123456",
+      "page_id": "2a3b4c5d-6e7f-8091-a2b3-c4d5e6f70819",
+      "property_id": "a8a63104-2376-a005-9d72-33e993928392",
+      "property_type": "date",
+      "value": {
+        "start": "2026-02-22",
+        "end": null
+      }
+    },
+    {
+      "id": "c9d0e1f2-a3b4-5678-cdef-678901234567",
+      "page_id": "2a3b4c5d-6e7f-8091-a2b3-c4d5e6f70819",
+      "property_id": "0a6a4726-322c-aad2-d053-9ce05e705a33",
+      "property_type": "select",
+      "value": {
+        "name": "Meridian v. Chen"
+      }
+    },
+    {
+      "id": "9e35a5fc-88b3-4e17-9d7c-2199e2525a8e",
+      "page_id": "4170e3ca-e98d-4abc-a65d-9c00936d9580",
+      "property_id": "664928fd-e63f-918a-5a5a-4160b41f71f2",
+      "property_type": "select",
+      "value": {
+        "name": "Emergency"
+      }
+    },
+    {
+      "id": "cb88ae66-4bdb-4b5e-a604-e1f5a2a1bcf7",
+      "page_id": "4170e3ca-e98d-4abc-a65d-9c00936d9580",
+      "property_id": "30676d58-4c36-0da0-ddad-db5fc20df7b7",
+      "property_type": "number",
+      "value": 3400
+    },
+    {
+      "id": "e24cdb00a072768e6cc083b0",
+      "page_id": "7b10f73124c7621d77d5cb88",
+      "property_id": "add76ad7-29ea-761d-c2ee-eee58eb4f91a",
+      "property_type": "select",
+      "value": {
+        "name": "In Progress"
+      }
+    },
+    {
+      "id": "55b392afb9bc26b63209650a",
+      "page_id": "7b10f73124c7621d77d5cb88",
+      "property_id": "1b8bbc6d-651f-1006-e39d-392a8d402147",
+      "property_type": "select",
+      "value": {
+        "name": "Video"
+      }
+    },
+    {
+      "id": "b335a46d80f8f138b93d90b8",
+      "page_id": "5d8d148705250679934c0678",
+      "property_id": "664928fd-e63f-918a-5a5a-4160b41f71f2",
+      "property_type": "select",
+      "value": {
+        "name": "Monthly Review"
+      }
+    },
+    {
+      "id": "fc72a8ac8b6a4f56039245a4",
+      "page_id": "5d8d148705250679934c0678",
+      "property_id": "30676d58-4c36-0da0-ddad-db5fc20df7b7",
+      "property_type": "number",
+      "value": 450
+    },
+    {
+      "id": "745e21eeea04b3b959b5868d",
+      "page_id": "693099d36720b02c4fd592a6",
+      "property_id": "664928fd-e63f-918a-5a5a-4160b41f71f2",
+      "property_type": "select",
+      "value": {
+        "name": "Monthly Review"
+      }
+    },
+    {
+      "id": "86484bddcf335ee1bd8f9bb6",
+      "page_id": "693099d36720b02c4fd592a6",
+      "property_id": "30676d58-4c36-0da0-ddad-db5fc20df7b7",
+      "property_type": "number",
+      "value": 3400
+    },
+    {
+      "id": "51c1f1269128490125f844a2",
+      "page_id": "eff7ea590b0f4dfc97f96e1f",
+      "property_id": "a8a63104-2376-a005-9d72-33e993928392",
+      "property_type": "date",
+      "value": {
+        "start": "2025-10-10",
+        "end": null
+      }
+    },
+    {
+      "id": "231b307dd2023c17414522a5",
+      "page_id": "eff7ea590b0f4dfc97f96e1f",
+      "property_id": "0a6a4726-322c-aad2-d053-9ce05e705a33",
+      "property_type": "select",
+      "value": {
+        "name": "Meridian v. Chen"
+      }
+    },
+    {
+      "id": "92976fe278f955d0abb2a855",
+      "page_id": "a6fc1a411d14c1179687438b",
+      "property_id": "a8a63104-2376-a005-9d72-33e993928392",
+      "property_type": "date",
+      "value": {
+        "start": "2025-12-19",
+        "end": null
+      }
+    },
+    {
+      "id": "07258f5e2dd968e352dcd7c2",
+      "page_id": "a6fc1a411d14c1179687438b",
+      "property_id": "0a6a4726-322c-aad2-d053-9ce05e705a33",
+      "property_type": "select",
+      "value": {
+        "name": "Meridian v. Chen"
+      }
+    },
+    {
+      "id": "5779365dc847c872f2215b4d",
+      "page_id": "4f76f013048a3b3c71b73ad4",
+      "property_id": "add76ad7-29ea-761d-c2ee-eee58eb4f91a",
+      "property_type": "select",
+      "value": {
+        "name": "Paused"
+      }
+    },
+    {
+      "id": "50a2893762314a2d99d6c608",
+      "page_id": "4f76f013048a3b3c71b73ad4",
+      "property_id": "1b8bbc6d-651f-1006-e39d-392a8d402147",
+      "property_type": "select",
+      "value": {
+        "name": "Planning"
+      }
+    }
+  ]
+}

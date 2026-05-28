@@ -1,0 +1,55 @@
+{
+  "name": "Adriana Ortiz Skills Index",
+  "description": "Skills for multi-domain operations at Kendrick Sloane — Adriana Ortiz's patent litigation and personal environment",
+  "skills": [
+    {
+      "name": "Adriana Ortiz Operations",
+      "file": "adrianaortiz_ops.json",
+      "folder": "Skill-AdrianaOrtizOps",
+      "description": "Multi-domain operations assistant for calendar, contacts, email, finance tracking, Garmin health, messaging, Notion, QuickBooks, reminders, Slack, Sonos, Strava, and Ticketmaster — with strict safety boundaries around anxiety disorder privacy, tuition financial strain, and ex-husband information diet",
+      "tools": [
+        "ao_calendar_list",
+        "ao_calendar_get",
+        "ao_contacts_list",
+        "ao_email_list",
+        "ao_email_get",
+        "ao_fintrack_list",
+        "ao_garmin_list",
+        "ao_messaging_list",
+        "ao_messaging_get",
+        "ao_notion_list",
+        "ao_notion_get",
+        "ao_quickbooks_list",
+        "ao_reminder_list",
+        "ao_slack_list",
+        "ao_sonos_list",
+        "ao_strava_list",
+        "ao_ticketmaster_list"
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "name": "adrianaortiz_data.py",
+      "path": "scripts/adrianaortiz_data.py",
+      "description": "CLI tool for Adriana Ortiz multi-domain data operations",
+      "commands": [
+        "calendar",
+        "contacts",
+        "emails",
+        "email",
+        "fintrack",
+        "garmin",
+        "messaging",
+        "conversation",
+        "notion",
+        "quickbooks",
+        "reminders",
+        "slack",
+        "sonos",
+        "strava",
+        "ticketmaster"
+      ]
+    }
+  ]
+}

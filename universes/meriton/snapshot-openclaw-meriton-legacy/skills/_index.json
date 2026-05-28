@@ -1,0 +1,48 @@
+{
+  "name": "Meriton Skills Index",
+  "description": "Skills for multi-domain operations at Meriton Financial — Christine Zhao's compliance and personal environment",
+  "skills": [
+    {
+      "name": "Meriton Operations",
+      "file": "meriton_ops.json",
+      "folder": "Skill-MeritonOps",
+      "description": "Multi-domain operations assistant for calendar, contacts, email, finance tracking, messaging, QuickBooks, reminders, Sonos, Strava, and Ticketmaster — with strict safety boundaries around health privacy, custody information, and employer compliance",
+      "tools": [
+        "meriton_calendar_list",
+        "meriton_calendar_get",
+        "meriton_contacts_list",
+        "meriton_email_list",
+        "meriton_email_get",
+        "meriton_fintrack_list",
+        "meriton_messaging_list",
+        "meriton_messaging_get",
+        "meriton_quickbooks_list",
+        "meriton_reminder_list",
+        "meriton_sonos_list",
+        "meriton_strava_list",
+        "meriton_ticketmaster_list"
+      ]
+    }
+  ],
+  "scripts": [
+    {
+      "name": "meriton_data.py",
+      "path": "scripts/meriton_data.py",
+      "description": "CLI tool for Meriton multi-domain data operations",
+      "commands": [
+        "calendar",
+        "contacts",
+        "emails",
+        "email",
+        "fintrack",
+        "messaging",
+        "conversation",
+        "quickbooks",
+        "reminders",
+        "sonos",
+        "strava",
+        "ticketmaster"
+      ]
+    }
+  ]
+}

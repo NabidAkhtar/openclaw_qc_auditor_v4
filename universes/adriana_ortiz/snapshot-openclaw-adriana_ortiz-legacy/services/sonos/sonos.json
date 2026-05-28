@@ -1,0 +1,1140 @@
+{
+  "users": [
+    {
+      "user_id": "dcde0f8bd832917d2173187f",
+      "name": "Adriana Ortiz",
+      "is_user": true,
+      "email": "adriana.ortiz@gmail.com"
+    }
+  ],
+  "speakers": [
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "room": "Kitchen",
+      "ip": "192.168.1.40",
+      "model": "Sonos One",
+      "model_number": "S13",
+      "software_version": "16.1",
+      "playback_state": "STOPPED",
+      "volume": 35,
+      "mute": false,
+      "now_playing_title": null,
+      "now_playing_artist": null,
+      "now_playing_album": null,
+      "now_playing_source": "spotify",
+      "now_playing_duration_seconds": 0,
+      "now_playing_position_seconds": 0,
+      "queue_position": 0
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "room": "Living Room",
+      "ip": "192.168.1.41",
+      "model": "Sonos Five",
+      "model_number": "S21",
+      "software_version": "16.1",
+      "playback_state": "STOPPED",
+      "volume": 28,
+      "mute": false,
+      "now_playing_title": null,
+      "now_playing_artist": null,
+      "now_playing_album": null,
+      "now_playing_source": "spotify",
+      "now_playing_duration_seconds": 0,
+      "now_playing_position_seconds": 0,
+      "queue_position": 0
+    },
+    {
+      "speaker_id": "28e85b7ea129be130ae1f65f",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "room": "Basement Workshop",
+      "ip": "192.168.1.42",
+      "model": "Sonos One SL",
+      "model_number": "S22",
+      "software_version": "16.1",
+      "playback_state": "STOPPED",
+      "volume": 40,
+      "mute": false,
+      "now_playing_title": null,
+      "now_playing_artist": null,
+      "now_playing_album": null,
+      "now_playing_source": "spotify",
+      "now_playing_duration_seconds": 0,
+      "now_playing_position_seconds": 0,
+      "queue_position": 0
+    }
+  ],
+  "speaker_groups": [
+    {
+      "user_id": "dcde0f8bd832917d2173187f",
+      "coordinator_speaker_id": "8a97216a41ade761de748625"
+    }
+  ],
+  "group_members": [
+    {
+      "speaker_id": "8a97216a41ade761de748625"
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45"
+    }
+  ],
+  "favorites": [
+    {
+      "user_id": "dcde0f8bd832917d2173187f",
+      "index": 0,
+      "title": "Cocina Latina",
+      "type": "playlist",
+      "source": "spotify"
+    },
+    {
+      "user_id": "dcde0f8bd832917d2173187f",
+      "index": 1,
+      "title": "Morning Swim",
+      "type": "playlist",
+      "source": "spotify"
+    },
+    {
+      "user_id": "dcde0f8bd832917d2173187f",
+      "index": 2,
+      "title": "Late Night Briefs",
+      "type": "playlist",
+      "source": "spotify"
+    },
+    {
+      "user_id": "dcde0f8bd832917d2173187f",
+      "index": 3,
+      "title": "Weekend Vibes",
+      "type": "playlist",
+      "source": "spotify"
+    },
+    {
+      "user_id": "dcde0f8bd832917d2173187f",
+      "index": 4,
+      "title": "Soledad's Dinner Mix",
+      "type": "playlist",
+      "source": "spotify"
+    }
+  ],
+  "favorite_tracks": [
+    {
+      "position": 0,
+      "title": "Despacito",
+      "artist": "Luis Fonsi ft. Daddy Yankee",
+      "album": "Despacito",
+      "duration_seconds": 228
+    },
+    {
+      "position": 1,
+      "title": "Conga",
+      "artist": "Gloria Estefan",
+      "album": "Primitive Love",
+      "duration_seconds": 247
+    },
+    {
+      "position": 2,
+      "title": "Livin' La Vida Loca",
+      "artist": "Ricky Martin",
+      "album": "Ricky Martin",
+      "duration_seconds": 220
+    },
+    {
+      "position": 3,
+      "title": "Suavemente",
+      "artist": "Elvis Crespo",
+      "album": "Suavemente",
+      "duration_seconds": 236
+    },
+    {
+      "position": 4,
+      "title": "Quimbara",
+      "artist": "Celia Cruz",
+      "album": "Celia & Johnny",
+      "duration_seconds": 274
+    },
+    {
+      "position": 5,
+      "title": "Bamboleo",
+      "artist": "Gipsy Kings",
+      "album": "Gipsy Kings",
+      "duration_seconds": 264
+    },
+    {
+      "position": 6,
+      "title": "La Bamba",
+      "artist": "Ritchie Valens",
+      "album": "Ritchie Valens",
+      "duration_seconds": 124
+    },
+    {
+      "position": 7,
+      "title": "Bailando",
+      "artist": "Enrique Iglesias",
+      "album": "Sex and Love",
+      "duration_seconds": 232
+    },
+    {
+      "position": 8,
+      "title": "Oye Como Va",
+      "artist": "Santana",
+      "album": "Abraxas",
+      "duration_seconds": 255
+    },
+    {
+      "position": 9,
+      "title": "Gasolina",
+      "artist": "Daddy Yankee",
+      "album": "Barrio Fino",
+      "duration_seconds": 197
+    },
+    {
+      "position": 0,
+      "title": "Here Comes the Sun",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "duration_seconds": 185
+    },
+    {
+      "position": 1,
+      "title": "Three Little Birds",
+      "artist": "Bob Marley",
+      "album": "Exodus",
+      "duration_seconds": 180
+    },
+    {
+      "position": 2,
+      "title": "Walking on Sunshine",
+      "artist": "Katrina and the Waves",
+      "album": "Walking on Sunshine",
+      "duration_seconds": 239
+    },
+    {
+      "position": 3,
+      "title": "Good Morning",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "duration_seconds": 193
+    },
+    {
+      "position": 4,
+      "title": "Beautiful Day",
+      "artist": "U2",
+      "album": "All That You Can't Leave Behind",
+      "duration_seconds": 248
+    },
+    {
+      "position": 5,
+      "title": "Island in the Sun",
+      "artist": "Weezer",
+      "album": "Weezer (Green)",
+      "duration_seconds": 194
+    },
+    {
+      "position": 6,
+      "title": "Mr. Blue Sky",
+      "artist": "Electric Light Orchestra",
+      "album": "Out of the Blue",
+      "duration_seconds": 303
+    },
+    {
+      "position": 7,
+      "title": "Lovely Day",
+      "artist": "Bill Withers",
+      "album": "Menagerie",
+      "duration_seconds": 254
+    },
+    {
+      "position": 8,
+      "title": "Don't Stop Me Now",
+      "artist": "Queen",
+      "album": "Jazz",
+      "duration_seconds": 209
+    },
+    {
+      "position": 9,
+      "title": "Clocks",
+      "artist": "Coldplay",
+      "album": "A Rush of Blood to the Head",
+      "duration_seconds": 308
+    },
+    {
+      "position": 0,
+      "title": "Blue in Green",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "duration_seconds": 327
+    },
+    {
+      "position": 1,
+      "title": "Nardis",
+      "artist": "Bill Evans Trio",
+      "album": "Explorations",
+      "duration_seconds": 413
+    },
+    {
+      "position": 2,
+      "title": "In a Sentimental Mood",
+      "artist": "Duke Ellington & John Coltrane",
+      "album": "Duke Ellington & John Coltrane",
+      "duration_seconds": 256
+    },
+    {
+      "position": 3,
+      "title": "My Funny Valentine",
+      "artist": "Chet Baker",
+      "album": "Chet Baker Sings",
+      "duration_seconds": 138
+    },
+    {
+      "position": 4,
+      "title": "Body and Soul",
+      "artist": "John Coltrane",
+      "album": "Coltrane's Sound",
+      "duration_seconds": 319
+    },
+    {
+      "position": 5,
+      "title": "Round Midnight",
+      "artist": "Thelonious Monk",
+      "album": "Genius of Modern Music",
+      "duration_seconds": 325
+    },
+    {
+      "position": 6,
+      "title": "Tenderly",
+      "artist": "Oscar Peterson",
+      "album": "We Get Requests",
+      "duration_seconds": 231
+    },
+    {
+      "position": 7,
+      "title": "Afro Blue",
+      "artist": "Robert Glasper",
+      "album": "Black Radio",
+      "duration_seconds": 265
+    },
+    {
+      "position": 8,
+      "title": "So What",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "duration_seconds": 562
+    },
+    {
+      "position": 9,
+      "title": "Moonlight Sonata",
+      "artist": "Yundi Li",
+      "album": "Beethoven Piano Sonatas",
+      "duration_seconds": 375
+    },
+    {
+      "position": 0,
+      "title": "September",
+      "artist": "Earth Wind & Fire",
+      "album": "I Am",
+      "duration_seconds": 215
+    },
+    {
+      "position": 1,
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "duration_seconds": 245
+    },
+    {
+      "position": 2,
+      "title": "Got to Give It Up",
+      "artist": "Marvin Gaye",
+      "album": "Live at the London Palladium",
+      "duration_seconds": 372
+    },
+    {
+      "position": 3,
+      "title": "Le Freak",
+      "artist": "Chic",
+      "album": "C'est Chic",
+      "duration_seconds": 311
+    },
+    {
+      "position": 4,
+      "title": "Ain't No Mountain High Enough",
+      "artist": "Marvin Gaye & Tammi Terrell",
+      "album": "United",
+      "duration_seconds": 155
+    },
+    {
+      "position": 5,
+      "title": "Boogie Wonderland",
+      "artist": "Earth Wind & Fire",
+      "album": "I Am",
+      "duration_seconds": 298
+    },
+    {
+      "position": 6,
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "album": "Arrival",
+      "duration_seconds": 231
+    },
+    {
+      "position": 7,
+      "title": "I Wanna Dance with Somebody",
+      "artist": "Whitney Houston",
+      "album": "Whitney",
+      "duration_seconds": 291
+    },
+    {
+      "position": 8,
+      "title": "Signed Sealed Delivered",
+      "artist": "Stevie Wonder",
+      "album": "Signed Sealed & Delivered",
+      "duration_seconds": 188
+    },
+    {
+      "position": 9,
+      "title": "Uptown Funk",
+      "artist": "Bruno Mars",
+      "album": "Uptown Special",
+      "duration_seconds": 270
+    },
+    {
+      "position": 0,
+      "title": "Besame Mucho",
+      "artist": "Andrea Bocelli",
+      "album": "Amor",
+      "duration_seconds": 240
+    },
+    {
+      "position": 1,
+      "title": "La Vie en Rose",
+      "artist": "Louis Armstrong",
+      "album": "La Vie en Rose",
+      "duration_seconds": 208
+    },
+    {
+      "position": 2,
+      "title": "Quizas Quizas Quizas",
+      "artist": "Nat King Cole",
+      "album": "Cole Espanol",
+      "duration_seconds": 169
+    },
+    {
+      "position": 3,
+      "title": "Mas Que Nada",
+      "artist": "Sergio Mendes",
+      "album": "Brasileiro",
+      "duration_seconds": 224
+    },
+    {
+      "position": 4,
+      "title": "Sabor a Mi",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 248
+    },
+    {
+      "position": 5,
+      "title": "Historia de un Amor",
+      "artist": "Luz Casal",
+      "album": "Un Ramo de Rosas",
+      "duration_seconds": 267
+    },
+    {
+      "position": 6,
+      "title": "Contigo en la Distancia",
+      "artist": "Christina Aguilera",
+      "album": "Mi Reflejo",
+      "duration_seconds": 202
+    },
+    {
+      "position": 7,
+      "title": "La Flor de la Canela",
+      "artist": "Chabuca Granda",
+      "album": "La Flor de la Canela",
+      "duration_seconds": 195
+    },
+    {
+      "position": 8,
+      "title": "Solamente Una Vez",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 215
+    },
+    {
+      "position": 9,
+      "title": "El Dia Que Me Quieras",
+      "artist": "Carlos Gardel",
+      "album": "El Dia Que Me Quieras",
+      "duration_seconds": 178
+    }
+  ],
+  "queue_items": [
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Despacito",
+      "artist": "Luis Fonsi ft. Daddy Yankee",
+      "album": "Despacito",
+      "duration_seconds": 228
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Livin' La Vida Loca",
+      "artist": "Ricky Martin",
+      "album": "Ricky Martin",
+      "duration_seconds": 220
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Quimbara",
+      "artist": "Celia Cruz",
+      "album": "Celia & Johnny",
+      "duration_seconds": 274
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Bamboleo",
+      "artist": "Gipsy Kings",
+      "album": "Gipsy Kings",
+      "duration_seconds": 264
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Oye Como Va",
+      "artist": "Santana",
+      "album": "Abraxas",
+      "duration_seconds": 255
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Gasolina",
+      "artist": "Daddy Yankee",
+      "album": "Barrio Fino",
+      "duration_seconds": 197
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Conga",
+      "artist": "Gloria Estefan",
+      "album": "Primitive Love",
+      "duration_seconds": 247
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Suavemente",
+      "artist": "Elvis Crespo",
+      "album": "Suavemente",
+      "duration_seconds": 236
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "La Bamba",
+      "artist": "Ritchie Valens",
+      "album": "Ritchie Valens",
+      "duration_seconds": 124
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Bailando",
+      "artist": "Enrique Iglesias",
+      "album": "Sex and Love",
+      "duration_seconds": 232
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Quimbara",
+      "artist": "Celia Cruz",
+      "album": "Celia & Johnny",
+      "duration_seconds": 274
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Despacito",
+      "artist": "Luis Fonsi ft. Daddy Yankee",
+      "album": "Despacito",
+      "duration_seconds": 228
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Besame Mucho",
+      "artist": "Andrea Bocelli",
+      "album": "Amor",
+      "duration_seconds": 240
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "La Vie en Rose",
+      "artist": "Louis Armstrong",
+      "album": "La Vie en Rose",
+      "duration_seconds": 208
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Quizas Quizas Quizas",
+      "artist": "Nat King Cole",
+      "album": "Cole Espanol",
+      "duration_seconds": 169
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Mas Que Nada",
+      "artist": "Sergio Mendes",
+      "album": "Brasileiro",
+      "duration_seconds": 224
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Sabor a Mi",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 248
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Historia de un Amor",
+      "artist": "Luz Casal",
+      "album": "Un Ramo de Rosas",
+      "duration_seconds": 267
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 6,
+      "title": "Contigo en la Distancia",
+      "artist": "Christina Aguilera",
+      "album": "Mi Reflejo",
+      "duration_seconds": 202
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Sabor a Mi",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 248
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Historia de un Amor",
+      "artist": "Luz Casal",
+      "album": "Un Ramo de Rosas",
+      "duration_seconds": 267
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Contigo en la Distancia",
+      "artist": "Christina Aguilera",
+      "album": "Mi Reflejo",
+      "duration_seconds": 202
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "La Flor de la Canela",
+      "artist": "Chabuca Granda",
+      "album": "La Flor de la Canela",
+      "duration_seconds": 195
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Solamente Una Vez",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 215
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "El Dia Que Me Quieras",
+      "artist": "Carlos Gardel",
+      "album": "El Dia Que Me Quieras",
+      "duration_seconds": 178
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 6,
+      "title": "Besame Mucho",
+      "artist": "Andrea Bocelli",
+      "album": "Amor",
+      "duration_seconds": 240
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 7,
+      "title": "La Vie en Rose",
+      "artist": "Louis Armstrong",
+      "album": "La Vie en Rose",
+      "duration_seconds": 208
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Quizas Quizas Quizas",
+      "artist": "Nat King Cole",
+      "album": "Cole Espanol",
+      "duration_seconds": 169
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Mas Que Nada",
+      "artist": "Sergio Mendes",
+      "album": "Brasileiro",
+      "duration_seconds": 224
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Solamente Una Vez",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 215
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "El Dia Que Me Quieras",
+      "artist": "Carlos Gardel",
+      "album": "El Dia Que Me Quieras",
+      "duration_seconds": 178
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Besame Mucho",
+      "artist": "Andrea Bocelli",
+      "album": "Amor",
+      "duration_seconds": 240
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Historia de un Amor",
+      "artist": "Luz Casal",
+      "album": "Un Ramo de Rosas",
+      "duration_seconds": 267
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Besame Mucho",
+      "artist": "Andrea Bocelli",
+      "album": "Amor",
+      "duration_seconds": 240
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Mas Que Nada",
+      "artist": "Sergio Mendes",
+      "album": "Brasileiro",
+      "duration_seconds": 224
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Sabor a Mi",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 248
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Historia de un Amor",
+      "artist": "Luz Casal",
+      "album": "Un Ramo de Rosas",
+      "duration_seconds": 267
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Solamente Una Vez",
+      "artist": "Luis Miguel",
+      "album": "Romance",
+      "duration_seconds": 215
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "El Dia Que Me Quieras",
+      "artist": "Carlos Gardel",
+      "album": "El Dia Que Me Quieras",
+      "duration_seconds": 178
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "September",
+      "artist": "Earth Wind & Fire",
+      "album": "I Am",
+      "duration_seconds": 215
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "duration_seconds": 245
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Got to Give It Up",
+      "artist": "Marvin Gaye",
+      "album": "Live at the London Palladium",
+      "duration_seconds": 372
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Le Freak",
+      "artist": "Chic",
+      "album": "C'est Chic",
+      "duration_seconds": 311
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Boogie Wonderland",
+      "artist": "Earth Wind & Fire",
+      "album": "I Am",
+      "duration_seconds": 298
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "I Wanna Dance with Somebody",
+      "artist": "Whitney Houston",
+      "album": "Whitney",
+      "duration_seconds": 291
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Blue in Green",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "duration_seconds": 327
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Nardis",
+      "artist": "Bill Evans Trio",
+      "album": "Explorations",
+      "duration_seconds": 413
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "In a Sentimental Mood",
+      "artist": "Duke Ellington & John Coltrane",
+      "album": "Duke Ellington & John Coltrane",
+      "duration_seconds": 256
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "My Funny Valentine",
+      "artist": "Chet Baker",
+      "album": "Chet Baker Sings",
+      "duration_seconds": 138
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Body and Soul",
+      "artist": "John Coltrane",
+      "album": "Coltrane's Sound",
+      "duration_seconds": 319
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Round Midnight",
+      "artist": "Thelonious Monk",
+      "album": "Genius of Modern Music",
+      "duration_seconds": 325
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "September",
+      "artist": "Earth Wind & Fire",
+      "album": "I Am",
+      "duration_seconds": 215
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "album": "Talking Book",
+      "duration_seconds": 245
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Ain't No Mountain High Enough",
+      "artist": "Marvin Gaye & Tammi Terrell",
+      "album": "United",
+      "duration_seconds": 155
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "album": "Arrival",
+      "duration_seconds": 231
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "I Wanna Dance with Somebody",
+      "artist": "Whitney Houston",
+      "album": "Whitney",
+      "duration_seconds": 291
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Signed Sealed Delivered",
+      "artist": "Stevie Wonder",
+      "album": "Signed Sealed & Delivered",
+      "duration_seconds": 188
+    },
+    {
+      "speaker_id": "8a97216a41ade761de748625",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 6,
+      "title": "Uptown Funk",
+      "artist": "Bruno Mars",
+      "album": "Uptown Special",
+      "duration_seconds": 270
+    },
+    {
+      "speaker_id": "28e85b7ea129be130ae1f65f",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "September",
+      "artist": "Earth Wind & Fire",
+      "album": "I Am",
+      "duration_seconds": 215
+    },
+    {
+      "speaker_id": "28e85b7ea129be130ae1f65f",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Got to Give It Up",
+      "artist": "Marvin Gaye",
+      "album": "Live at the London Palladium",
+      "duration_seconds": 372
+    },
+    {
+      "speaker_id": "28e85b7ea129be130ae1f65f",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Le Freak",
+      "artist": "Chic",
+      "album": "C'est Chic",
+      "duration_seconds": 311
+    },
+    {
+      "speaker_id": "28e85b7ea129be130ae1f65f",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Boogie Wonderland",
+      "artist": "Earth Wind & Fire",
+      "album": "I Am",
+      "duration_seconds": 298
+    },
+    {
+      "speaker_id": "28e85b7ea129be130ae1f65f",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "album": "Arrival",
+      "duration_seconds": 231
+    },
+    {
+      "speaker_id": "28e85b7ea129be130ae1f65f",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Signed Sealed Delivered",
+      "artist": "Stevie Wonder",
+      "album": "Signed Sealed & Delivered",
+      "duration_seconds": 188
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 0,
+      "title": "Despacito",
+      "artist": "Luis Fonsi ft. Daddy Yankee",
+      "album": "Despacito",
+      "duration_seconds": 228
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 1,
+      "title": "Conga",
+      "artist": "Gloria Estefan",
+      "album": "Primitive Love",
+      "duration_seconds": 247
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 2,
+      "title": "Livin' La Vida Loca",
+      "artist": "Ricky Martin",
+      "album": "Ricky Martin",
+      "duration_seconds": 220
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 3,
+      "title": "Suavemente",
+      "artist": "Elvis Crespo",
+      "album": "Suavemente",
+      "duration_seconds": 236
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 4,
+      "title": "Quimbara",
+      "artist": "Celia Cruz",
+      "album": "Celia & Johnny",
+      "duration_seconds": 274
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 5,
+      "title": "Bamboleo",
+      "artist": "Gipsy Kings",
+      "album": "Gipsy Kings",
+      "duration_seconds": 264
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 6,
+      "title": "La Bamba",
+      "artist": "Ritchie Valens",
+      "album": "Ritchie Valens",
+      "duration_seconds": 124
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 7,
+      "title": "Bailando",
+      "artist": "Enrique Iglesias",
+      "album": "Sex and Love",
+      "duration_seconds": 232
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 8,
+      "title": "Oye Como Va",
+      "artist": "Santana",
+      "album": "Abraxas",
+      "duration_seconds": 255
+    },
+    {
+      "speaker_id": "b6b68e4dc30a28c4faa82d45",
+      "user_id": "dcde0f8bd832917d2173187f",
+      "position": 9,
+      "title": "Gasolina",
+      "artist": "Daddy Yankee",
+      "album": "Barrio Fino",
+      "duration_seconds": 197
+    }
+  ]
+}

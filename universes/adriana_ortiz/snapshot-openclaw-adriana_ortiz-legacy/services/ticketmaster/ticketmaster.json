@@ -1,0 +1,422 @@
+{
+  "users": [
+    {
+      "user_id": "418f30783eac2b250b6679bb",
+      "name": "Adriana Ortiz",
+      "email": "adriana.ortiz@gmail.com",
+      "address": "3847 12th Street NE",
+      "city": "Washington",
+      "state": "DC",
+      "zip": "20017",
+      "is_user": true
+    }
+  ],
+  "venues": [
+    {
+      "id": "347b5b2763e25de3410f05aa",
+      "name": "Georgetown Waterfront Park",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 5000,
+      "venue_type": "outdoor",
+      "address": "3303 Water Street NW",
+      "zip": "20007",
+      "type": "theater"
+    },
+    {
+      "id": "b7e056bddf8867eec02bc600",
+      "name": "Smithsonian American Art Museum",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 800,
+      "venue_type": "theater",
+      "address": "8th and G Streets NW",
+      "zip": "20004",
+      "type": "theater"
+    },
+    {
+      "id": "3eaf001c9d1f847cf038be2b",
+      "name": "National Gallery of Art",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 3000,
+      "venue_type": "theater",
+      "address": "6th & Constitution Ave NW",
+      "zip": "20565",
+      "type": "theater"
+    },
+    {
+      "id": "6b0278e5ea051a8d4bdc700d",
+      "name": "The John F. Kennedy Center for the Performing Arts",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 2364,
+      "venue_type": "theater",
+      "address": "2700 F Street NW",
+      "zip": "20566",
+      "type": "theater"
+    },
+    {
+      "id": "ca2abd158e686665884b6be2",
+      "name": "Capital One Arena",
+      "city": "Washington",
+      "state": "DC",
+      "capacity": 20356,
+      "venue_type": "arena",
+      "address": "601 F Street NW",
+      "zip": "20004",
+      "type": "theater"
+    }
+  ],
+  "events": [
+    {
+      "id": "5822440d660a9fe1cb485635",
+      "name": "DC Food & Wine Festival 2025",
+      "date": "2025-11-15",
+      "time": "12:00",
+      "venue_id": "347b5b2763e25de3410f05aa",
+      "status": "on_sale",
+      "min_price": 65.0,
+      "max_price": 125.0,
+      "segment": "Arts & Theater",
+      "genre": "Culinary",
+      "sub_genre": "Food Festival",
+      "ticket_limit": 8,
+      "on_sale_date": "2025-10-01",
+      "presale_date": "2025-09-25"
+    },
+    {
+      "id": "4e9647185c9e6123def1e7ec",
+      "name": "Holiday Cooking Traditions of the Americas",
+      "date": "2025-12-14",
+      "time": "14:00",
+      "venue_id": "b7e056bddf8867eec02bc600",
+      "status": "on_sale",
+      "min_price": 45.0,
+      "max_price": 75.0,
+      "segment": "Arts & Theater",
+      "genre": "Culinary",
+      "sub_genre": "Cooking Demo",
+      "ticket_limit": 6,
+      "on_sale_date": "2025-11-10",
+      "presale_date": null
+    },
+    {
+      "id": "7897036afca95b81412a7d1b",
+      "name": "Veritas and Vision -- New Acquisitions Exhibition",
+      "date": "2025-10-24",
+      "time": "11:00",
+      "venue_id": "3eaf001c9d1f847cf038be2b",
+      "status": "on_sale",
+      "min_price": 20.0,
+      "max_price": 35.0,
+      "segment": "Arts & Theater",
+      "genre": "Fine Art",
+      "sub_genre": "Exhibition",
+      "ticket_limit": 8,
+      "on_sale_date": "2025-09-15",
+      "presale_date": null
+    },
+    {
+      "id": "d6ad1deacdd682a3fbbefc79",
+      "name": "A Holiday Celebration -- Kennedy Center",
+      "date": "2025-12-12",
+      "time": "19:00",
+      "venue_id": "6b0278e5ea051a8d4bdc700d",
+      "status": "on_sale",
+      "min_price": 65.0,
+      "max_price": 150.0,
+      "segment": "Arts & Theater",
+      "genre": "Theatre",
+      "sub_genre": "Musical",
+      "ticket_limit": 6,
+      "on_sale_date": "2025-10-15",
+      "presale_date": "2025-10-10"
+    },
+    {
+      "id": "232b66ff14cae9ba318e532e",
+      "name": "Washington Wizards vs. Boston Celtics",
+      "date": "2025-11-15",
+      "time": "19:00",
+      "venue_id": "ca2abd158e686665884b6be2",
+      "status": "on_sale",
+      "min_price": 45.0,
+      "max_price": 250.0,
+      "segment": "Sports",
+      "genre": "Basketball",
+      "sub_genre": "NBA",
+      "ticket_limit": 8,
+      "on_sale_date": "2025-09-15",
+      "presale_date": null
+    },
+    {
+      "id": "e2ab0b6980e00b395633ee06",
+      "name": "Washington Wizards vs. Philadelphia 76ers",
+      "date": "2025-12-27",
+      "time": "19:00",
+      "venue_id": "ca2abd158e686665884b6be2",
+      "status": "on_sale",
+      "min_price": 35.0,
+      "max_price": 200.0,
+      "segment": "Sports",
+      "genre": "Basketball",
+      "sub_genre": "NBA",
+      "ticket_limit": 8,
+      "on_sale_date": "2025-10-15",
+      "presale_date": null
+    },
+    {
+      "id": "c65b0cc839a9929f99945a9d",
+      "name": "Washington Wizards vs. Atlanta Hawks",
+      "date": "2026-03-07",
+      "time": "19:00",
+      "venue_id": "ca2abd158e686665884b6be2",
+      "status": "on_sale",
+      "min_price": 30.0,
+      "max_price": 180.0,
+      "segment": "Sports",
+      "genre": "Basketball",
+      "sub_genre": "NBA",
+      "ticket_limit": 8,
+      "on_sale_date": "2025-10-15",
+      "presale_date": null
+    }
+  ],
+  "orders": [
+    {
+      "id": "7355655a05bea1d23d37ea3f",
+      "user_id": "418f30783eac2b250b6679bb",
+      "event_id": "5822440d660a9fe1cb485635",
+      "ticket_type_id": "73d1534ca2895c48cfc48969",
+      "quantity": 2,
+      "subtotal": 150.0,
+      "service_fee": 24.5,
+      "order_processing_fee": 5.5,
+      "total_price": 180.0,
+      "confirmation_code": "TM-8X4K2R",
+      "purchased_at": "2025-11-04T00:00:00.000Z"
+    },
+    {
+      "id": "d9af9e18f67b18870241d966",
+      "user_id": "418f30783eac2b250b6679bb",
+      "event_id": "4e9647185c9e6123def1e7ec",
+      "ticket_type_id": "36bd4339818658308441b3ce",
+      "quantity": 2,
+      "subtotal": 110.0,
+      "service_fee": 18.0,
+      "order_processing_fee": 5.5,
+      "total_price": 133.5,
+      "confirmation_code": "TM-5N7P3Q",
+      "purchased_at": "2025-12-02T00:00:00.000Z"
+    },
+    {
+      "id": "287f6d5e58cf665576fb7596",
+      "user_id": "418f30783eac2b250b6679bb",
+      "event_id": "7897036afca95b81412a7d1b",
+      "ticket_type_id": "e7b29f8f335e9ae965694828",
+      "quantity": 2,
+      "subtotal": 44.0,
+      "service_fee": 3.5,
+      "order_processing_fee": 4.5,
+      "total_price": 52.0,
+      "confirmation_code": "TM-3R8K5P",
+      "purchased_at": "2025-10-20T20:00:00.000Z"
+    },
+    {
+      "id": "92ebd92362ee22e7b16e98cd",
+      "user_id": "418f30783eac2b250b6679bb",
+      "event_id": "d6ad1deacdd682a3fbbefc79",
+      "ticket_type_id": "501d6fe6483f3f423a1556d3",
+      "quantity": 2,
+      "subtotal": 158.0,
+      "service_fee": 14.5,
+      "order_processing_fee": 5.5,
+      "total_price": 178.0,
+      "confirmation_code": "TM-7J2N9W",
+      "purchased_at": "2025-12-05T16:00:00.000Z"
+    },
+    {
+      "id": "74280f2538617e584a835f05",
+      "user_id": "418f30783eac2b250b6679bb",
+      "event_id": "232b66ff14cae9ba318e532e",
+      "ticket_type_id": "c20136d8053c6e40b8755952",
+      "quantity": 2,
+      "subtotal": 170.0,
+      "service_fee": 27.5,
+      "order_processing_fee": 5.5,
+      "total_price": 203.0,
+      "confirmation_code": "TM-4R7B2K",
+      "purchased_at": "2025-11-08T15:00:00.000Z"
+    },
+    {
+      "id": "a24cfc3c1414156425186f54",
+      "user_id": "418f30783eac2b250b6679bb",
+      "event_id": "e2ab0b6980e00b395633ee06",
+      "ticket_type_id": "00d4e42a7ae25964ed3e41ef",
+      "quantity": 1,
+      "subtotal": 110.0,
+      "service_fee": 18.0,
+      "order_processing_fee": 5.5,
+      "total_price": 133.5,
+      "confirmation_code": "TM-9H3N6T",
+      "purchased_at": "2025-12-20T16:00:00.000Z"
+    },
+    {
+      "id": "034097a149b307969d6f80e0",
+      "user_id": "418f30783eac2b250b6679bb",
+      "event_id": "c65b0cc839a9929f99945a9d",
+      "ticket_type_id": "92a3d910116179948a75919c",
+      "quantity": 2,
+      "subtotal": 130.0,
+      "service_fee": 21.0,
+      "order_processing_fee": 5.5,
+      "total_price": 156.5,
+      "confirmation_code": "TM-2W5M8J",
+      "purchased_at": "2026-02-22T15:00:00.000Z"
+    }
+  ],
+  "attractions": [
+    {
+      "id": "3a6a137805fd3e2b36a6c1ca",
+      "name": "DC Food & Wine Festival",
+      "type": "company",
+      "genre": "Culinary",
+      "segment": "Arts & Theatre",
+      "description": "Annual celebration of DC's culinary scene featuring local restaurants, wineries, and celebrity chef demonstrations at the Georgetown Waterfront."
+    },
+    {
+      "id": "cdf9e274826ea00b9921135c",
+      "name": "Holiday Cooking Traditions of the Americas",
+      "type": "company",
+      "genre": "Culinary",
+      "segment": "Arts & Theatre",
+      "description": "Live cooking demonstrations showcasing holiday recipes from Latin America, the Caribbean, and the American South, with guest chefs and tastings."
+    },
+    {
+      "id": "1419a6f60f0f1419d1376ade",
+      "name": "Veritas and Vision -- New Acquisitions Exhibition",
+      "type": "company",
+      "genre": "Fine Art",
+      "segment": "Arts & Theatre",
+      "description": "A curated exhibition of recently acquired works spanning contemporary photography, sculpture, and mixed media at the National Gallery of Art's West Building."
+    },
+    {
+      "id": "972da7424539957b7471b3cd",
+      "name": "A Holiday Celebration",
+      "type": "company",
+      "genre": "Theatre",
+      "segment": "Arts & Theatre",
+      "description": "The Kennedy Center's annual holiday concert featuring the National Symphony Orchestra with guest vocalists performing seasonal favorites and new commissions."
+    },
+    {
+      "id": "5b22fd76e00417b69abee76a",
+      "name": "Washington Wizards",
+      "type": "team",
+      "genre": "Basketball",
+      "segment": "Sports",
+      "description": "The Washington Wizards are an NBA franchise based in Washington, D.C., playing home games at Capital One Arena in the Penn Quarter neighborhood."
+    }
+  ],
+  "event_attractions": [
+    {
+      "event_id": "5822440d660a9fe1cb485635",
+      "attraction_id": "3a6a137805fd3e2b36a6c1ca",
+      "billing": "headline"
+    },
+    {
+      "event_id": "4e9647185c9e6123def1e7ec",
+      "attraction_id": "cdf9e274826ea00b9921135c",
+      "billing": "headline"
+    },
+    {
+      "event_id": "7897036afca95b81412a7d1b",
+      "attraction_id": "1419a6f60f0f1419d1376ade",
+      "billing": "headline"
+    },
+    {
+      "event_id": "d6ad1deacdd682a3fbbefc79",
+      "attraction_id": "972da7424539957b7471b3cd",
+      "billing": "headline"
+    },
+    {
+      "event_id": "232b66ff14cae9ba318e532e",
+      "attraction_id": "5b22fd76e00417b69abee76a",
+      "billing": "headline"
+    },
+    {
+      "event_id": "e2ab0b6980e00b395633ee06",
+      "attraction_id": "5b22fd76e00417b69abee76a",
+      "billing": "headline"
+    },
+    {
+      "event_id": "c65b0cc839a9929f99945a9d",
+      "attraction_id": "5b22fd76e00417b69abee76a",
+      "billing": "headline"
+    }
+  ],
+  "ticket_types": [
+    {
+      "id": "73d1534ca2895c48cfc48969",
+      "event_id": "5822440d660a9fe1cb485635",
+      "name": "General Admission",
+      "price": 75.0,
+      "quantity_total": 3000,
+      "quantity_available": 1847,
+      "section": "General"
+    },
+    {
+      "id": "36bd4339818658308441b3ce",
+      "event_id": "4e9647185c9e6123def1e7ec",
+      "name": "Reserved Seating",
+      "price": 55.0,
+      "quantity_total": 400,
+      "quantity_available": 223,
+      "section": "Orchestra"
+    },
+    {
+      "id": "e7b29f8f335e9ae965694828",
+      "event_id": "7897036afca95b81412a7d1b",
+      "name": "General Admission",
+      "price": 22.0,
+      "quantity_total": 2000,
+      "quantity_available": 1341,
+      "section": "General"
+    },
+    {
+      "id": "501d6fe6483f3f423a1556d3",
+      "event_id": "d6ad1deacdd682a3fbbefc79",
+      "name": "Orchestra",
+      "price": 79.0,
+      "quantity_total": 1200,
+      "quantity_available": 387,
+      "section": "Orchestra Center"
+    },
+    {
+      "id": "c20136d8053c6e40b8755952",
+      "event_id": "232b66ff14cae9ba318e532e",
+      "name": "Upper Level",
+      "price": 85.0,
+      "quantity_total": 3000,
+      "quantity_available": 1847,
+      "section": "Section 402"
+    },
+    {
+      "id": "00d4e42a7ae25964ed3e41ef",
+      "event_id": "e2ab0b6980e00b395633ee06",
+      "name": "Lower Level",
+      "price": 110.0,
+      "quantity_total": 1200,
+      "quantity_available": 543,
+      "section": "Section 118"
+    },
+    {
+      "id": "92a3d910116179948a75919c",
+      "event_id": "c65b0cc839a9929f99945a9d",
+      "name": "Upper Level",
+      "price": 65.0,
+      "quantity_total": 3000,
+      "quantity_available": 2104,
+      "section": "Section 408"
+    }
+  ]
+}

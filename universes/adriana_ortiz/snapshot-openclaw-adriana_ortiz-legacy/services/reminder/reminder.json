@@ -1,0 +1,616 @@
+{
+  "reminders": [
+    {
+      "reminder_id": "241cd687f6a85124fb698181",
+      "title": "Mortgage payment due",
+      "due_datetime": 1759323600.0,
+      "description": "Capital One mortgage - $2,800.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1759323600.0
+    },
+    {
+      "reminder_id": "7e48555eb9732102bd1a101b",
+      "title": "UVA tuition installment",
+      "due_datetime": 1759669200.0,
+      "description": "$4,300 due.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1759669200.0
+    },
+    {
+      "reminder_id": "3bf531f57ff244e4aa56c142",
+      "title": "Swim alarm 5:15 AM",
+      "due_datetime": 1759742100.0,
+      "description": "Turkey Thicket lap swim. Bag packed night before.",
+      "repetition_unit": "day",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "bb3e6f61c92518ced5a42347",
+      "title": "GEICO payment",
+      "due_datetime": 1759842000.0,
+      "description": "Auto insurance - $185 from checking.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1759842000.0
+    },
+    {
+      "reminder_id": "766b2ac54e2c20786913c8f1",
+      "title": "Dr. Vega -- 2:00 PM Thursday",
+      "due_datetime": 1760034600.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1760034600.0
+    },
+    {
+      "reminder_id": "8cb9f189a42b2b21991d58d4",
+      "title": "Pay utilities",
+      "due_datetime": 1760101200.0,
+      "description": "Pepco + Washington Gas.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1760101200.0
+    },
+    {
+      "reminder_id": "a4b6c8d0e2f4167890123456",
+      "title": "Pick up tamales supplies -- Eastern Market",
+      "due_datetime": 1761400800.0,
+      "description": "Corn husks, pork shoulder, tomatillos, dried chiles (ancho, guajillo, pasilla), masa harina, manteca. Check if they have marigolds.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1761400800.0
+    },
+    {
+      "reminder_id": "170b2ecbc26ddbacd1ad4c04",
+      "title": "Mortgage payment due",
+      "due_datetime": 1762002000.0,
+      "description": "Capital One mortgage - $2,800.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1762002000.0
+    },
+    {
+      "reminder_id": "5da753179e1466f6cc78e364",
+      "title": "Turkey Thicket pool membership",
+      "due_datetime": 1762005600.0,
+      "description": "Auto-charged $65 to Chase card on the 1st.",
+      "repetition_unit": "month",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "f0f3c7e298fe5e56816ff001",
+      "title": "UVA tuition installment",
+      "due_datetime": 1762347600.0,
+      "description": "$4,300 due.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1762347600.0
+    },
+    {
+      "reminder_id": "f45d383ae82b8602343b622e",
+      "title": "Fasting bloodwork -- no breakfast",
+      "due_datetime": 1762349400.0,
+      "description": "Dr. Thornton appointment at 9 AM. Water only.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1762349400.0
+    },
+    {
+      "reminder_id": "13104f57f1de3979bf807ea6",
+      "title": "GEICO payment",
+      "due_datetime": 1762520400.0,
+      "description": "Auto insurance - $185 from checking.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1762520400.0
+    },
+    {
+      "reminder_id": "89fec6a990b74f7a73c34964",
+      "title": "Pay utilities",
+      "due_datetime": 1762779600.0,
+      "description": "Pepco + Washington Gas.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1762779600.0
+    },
+    {
+      "reminder_id": "f3c026444b7114878730fd9a",
+      "title": "Dr. Vega -- 2:00 PM Thursday",
+      "due_datetime": 1763058600.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1763058600.0
+    },
+    {
+      "reminder_id": "4037427780545673120ed0e1",
+      "title": "Benefits enrollment deadline Nov 30",
+      "due_datetime": 1763211600.0,
+      "description": "Log in to benefitfocus.com/kendricksloane. Review elections. FSA requires re-enrollment.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1763211600.0
+    },
+    {
+      "reminder_id": "fd1d3edb270e4c060a4fdd3c",
+      "title": "Text Tomas about study abroad split",
+      "due_datetime": 1763218800.0,
+      "description": "Ask about splitting the $8,500.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1763218800.0
+    },
+    {
+      "reminder_id": "b5c7d9e1f3a5278901234567",
+      "title": "Start turkey brine tonight",
+      "due_datetime": 1764118800.0,
+      "description": "Salt, sugar, peppercorns, bay leaves, rosemary. Turkey needs 12-18 hrs in brine.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1764118800.0
+    },
+    {
+      "reminder_id": "99637e868fbc3f6ca35c9ebf",
+      "title": "Cayenne inspection due this week",
+      "due_datetime": 1764594000.0,
+      "description": "Wednesday 9 AM at Virginia Lane Automotive. Bring registration and insurance card.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1764594000.0
+    },
+    {
+      "reminder_id": "b1cf53a4839bbf6f9b3876db",
+      "title": "Mortgage payment due",
+      "due_datetime": 1764594000.0,
+      "description": "Capital One mortgage - $2,800.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1764594000.0
+    },
+    {
+      "reminder_id": "558d2a864bd9b78863b6cdf6",
+      "title": "Drop off Cayenne for inspection 9 AM",
+      "due_datetime": 1764765000.0,
+      "description": "Virginia Lane Automotive, 4520 Rhode Island Ave NE. Keys and registration in glove box.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1764765000.0
+    },
+    {
+      "reminder_id": "95e1f5aeeb637f73c8ff3568",
+      "title": "UVA tuition installment",
+      "due_datetime": 1764939600.0,
+      "description": "$4,300 due.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1764939600.0
+    },
+    {
+      "reminder_id": "8c3186d98fda5a0986bbc651",
+      "title": "Pick up Cayenne from Virginia Lane",
+      "due_datetime": 1764963000.0,
+      "description": "Inspection done. $185 on Chase card.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1764963000.0
+    },
+    {
+      "reminder_id": "371f4614268925b21bdccda5",
+      "title": "GEICO payment",
+      "due_datetime": 1765112400.0,
+      "description": "Auto insurance - $185 from checking.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1765112400.0
+    },
+    {
+      "reminder_id": "7374a79e1e37f5e5e425fb8d",
+      "title": "Pay utilities",
+      "due_datetime": 1765371600.0,
+      "description": "Pepco + Washington Gas.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1765371600.0
+    },
+    {
+      "reminder_id": "078ce98d82e34e66032d5a79",
+      "title": "Decide on CocinaTu Kitchen collab",
+      "due_datetime": 1765414800.0,
+      "description": "Brand deal: $500 + cookware set. Posting deadline Dec 20.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "c392fc92ee88493c8829a316",
+      "title": "Dr. Vega -- 2:00 PM Thursday",
+      "due_datetime": 1765477800.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1765477800.0
+    },
+    {
+      "reminder_id": "abf8af52236837a716d90614",
+      "title": "Pick up Renata -- DCA Terminal B 4:15",
+      "due_datetime": 1766088000.0,
+      "description": "AA 1592 from CLT. Confirmation XJKT4R. Cell phone lot then Terminal B arrivals.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1766088000.0
+    },
+    {
+      "reminder_id": "5191af90ccda46f7ecc4721b",
+      "title": "Renata textbooks - $339 estimated",
+      "due_datetime": 1766415600.0,
+      "description": "UVA Bookstore. 5 books for Spring 2026.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "c6d8e0f2a4b6389012345678",
+      "title": "Whole Foods pickup 2-3 PM",
+      "due_datetime": 1766430000.0,
+      "description": "Order #WFM-7823941. Foggy Bottom, 2201 I St NW. Christmas dinner ingredients.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1766430000.0
+    },
+    {
+      "reminder_id": "d7e9f1a3b5c7490123456789",
+      "title": "Pick up special ingredients -- H Mart",
+      "due_datetime": 1766505600.0,
+      "description": "Banana leaves, plantains, aji dulce peppers, recaito, achiote seeds. Wheaton location.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1766505600.0
+    },
+    {
+      "reminder_id": "d9d56aef72ab3af7676b2467",
+      "title": "Renata to Tomas 10 AM",
+      "due_datetime": 1766757600.0,
+      "description": "Tomas picking up at the house.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1766757600.0
+    },
+    {
+      "reminder_id": "0e1bc60bbf353dcd435215be",
+      "title": "Mortgage payment due",
+      "due_datetime": 1767272400.0,
+      "description": "Capital One mortgage - $2,800.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1767272400.0
+    },
+    {
+      "reminder_id": "f3f254bf4e2489d12cf64fd2",
+      "title": "UVA tuition installment",
+      "due_datetime": 1767618000.0,
+      "description": "$4,300 due.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1767618000.0
+    },
+    {
+      "reminder_id": "4fee1ff68b44e6b7ee164fa7",
+      "title": "GEICO payment",
+      "due_datetime": 1767790800.0,
+      "description": "Auto insurance - $185 from checking.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1767790800.0
+    },
+    {
+      "reminder_id": "9e344ec058800338f050be0a",
+      "title": "Wind down 10:30 PM",
+      "due_datetime": 1767848400.0,
+      "description": "",
+      "repetition_unit": "day",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "6b657f10c384b195e168aea2",
+      "title": "Pay utilities",
+      "due_datetime": 1768050000.0,
+      "description": "Pepco + Washington Gas.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1768050000.0
+    },
+    {
+      "reminder_id": "0adf355f80f3ae48f903b57d",
+      "title": "Dr. Vega -- 2:00 PM Thursday",
+      "due_datetime": 1768071600.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1768071600.0
+    },
+    {
+      "reminder_id": "2883e6f483e9d9dc663e6635",
+      "title": "Renata flight to UVA 10:15 AM",
+      "due_datetime": 1768219200.0,
+      "description": "AA 1473 DCA to CLT. Drop off by 8:30 AM.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "a8f3d2e1b7c496058d1e3f2a",
+      "title": "Schedule annual eye exam",
+      "due_datetime": 1768482000.0,
+      "description": "Last exam was January 2025. Call MyEyeDr to book.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1768482000.0
+    },
+    {
+      "reminder_id": "4b92062d7a33d7303293959f",
+      "title": "Schedule Dr. Thornton -- February",
+      "due_datetime": 1768485600.0,
+      "description": "Quarterly checkup due. Book through patient portal.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1768485600.0
+    },
+    {
+      "reminder_id": "b9e4c3f2a8d507169e2f4a3b",
+      "title": "Eye exam tomorrow 3 PM",
+      "due_datetime": 1769043600.0,
+      "description": "MyEyeDr, 1521 Rhode Island Ave NE. Bring current glasses.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1769043600.0
+    },
+    {
+      "reminder_id": "7e807ef1c300db3582407715",
+      "title": "Partnership self-assessment DUE Jan 31",
+      "due_datetime": 1769896800.0,
+      "description": "Submit completed form to David Kendrick.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1769896800.0
+    },
+    {
+      "reminder_id": "08ceca24f06c96cd4f4fbe0a",
+      "title": "Mortgage payment due",
+      "due_datetime": 1769950800.0,
+      "description": "Capital One mortgage - $2,800.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1769950800.0
+    },
+    {
+      "reminder_id": "238dd0bfb8bee4e5464af431",
+      "title": "Reset firm network password",
+      "due_datetime": 1769954400.0,
+      "description": "Go to password.kendricksloane.com. Deadline today.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1769954400.0
+    },
+    {
+      "reminder_id": "84c1ee051c2fbc8e47bc98c7",
+      "title": "UVA tuition installment",
+      "due_datetime": 1770296400.0,
+      "description": "$4,300 due.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1770296400.0
+    },
+    {
+      "reminder_id": "84c9fbb13ca2bab9557bc1c2",
+      "title": "Dr. Vega -- 2:00 PM Thursday",
+      "due_datetime": 1770316200.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1770316200.0
+    },
+    {
+      "reminder_id": "439eb3c16910eec6555c6d36",
+      "title": "GEICO payment",
+      "due_datetime": 1770469200.0,
+      "description": "Auto insurance - $185 from checking.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1770469200.0
+    },
+    {
+      "reminder_id": "51b582d64cf47d697b63ba2d",
+      "title": "Pay utilities",
+      "due_datetime": 1770728400.0,
+      "description": "Pepco + Washington Gas.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1770728400.0
+    },
+    {
+      "reminder_id": "dddc930de29504c5f47458e3",
+      "title": "Chase Sapphire payment due",
+      "due_datetime": 1771077600.0,
+      "description": "Minimum $125 due. Full balance: $5,247.19.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1771077600.0
+    },
+    {
+      "reminder_id": "1ed50158ee9359317cb3dfad",
+      "title": "Gather tax documents for CPA",
+      "due_datetime": 1771164000.0,
+      "description": "W-2 (ADP), 1098 (Capital One), 1098-T (UVA -- ask Renata), 1099s (Fidelity, Google). CPA appointment Feb 20.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1771164000.0
+    },
+    {
+      "reminder_id": "cd27271ec70ecb35c30ef52c",
+      "title": "Fasting bloodwork -- no breakfast",
+      "due_datetime": 1771421400.0,
+      "description": "Dr. Thornton appointment at 9 AM. Water only.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1771421400.0
+    },
+    {
+      "reminder_id": "5139ad739b161c036c87c221",
+      "title": "CPA appointment tomorrow 11 AM",
+      "due_datetime": 1771509600.0,
+      "description": "Patricia Reeves, 1427 H St NW Suite 300. Bring all tax documents.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1771509600.0
+    },
+    {
+      "reminder_id": "fa9e86e407caa340f98b34c0",
+      "title": "Dr. Vega -- 2:00 PM Thursday",
+      "due_datetime": 1771525800.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1771525800.0
+    },
+    {
+      "reminder_id": "e175824a7c0c35e63a35f2f6",
+      "title": "Call Porsche service",
+      "due_datetime": 1771857000.0,
+      "description": "Schedule drop-off for brake service. Estimate $3,400.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1771857000.0
+    },
+    {
+      "reminder_id": "83c2cce0799e0dee4b30c7e4",
+      "title": "Pick up car",
+      "due_datetime": 1772136000.0,
+      "description": "Porsche of Tysons Corner. Brakes done.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1772136000.0
+    },
+    {
+      "reminder_id": "4262fe17e3542f8e4abf4864",
+      "title": "Mortgage payment due",
+      "due_datetime": 1772370000.0,
+      "description": "Capital One mortgage - $2,800.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1772370000.0
+    },
+    {
+      "reminder_id": "2094c622fc910915a22b6cec",
+      "title": "UVA tuition installment",
+      "due_datetime": 1772715600.0,
+      "description": "$4,300 due.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1772715600.0
+    },
+    {
+      "reminder_id": "8d68c5ce758ca76f60b2b4c0",
+      "title": "Review CPA draft return before call",
+      "due_datetime": 1772719200.0,
+      "description": "Patricia sent draft federal and DC returns. Review before March 10 call.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1772719200.0
+    },
+    {
+      "reminder_id": "419d8a5e76f35a9b61f8ef2e",
+      "title": "GEICO payment",
+      "due_datetime": 1772888400.0,
+      "description": "Auto insurance - $185 from checking.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1772888400.0
+    },
+    {
+      "reminder_id": "8017e1b5c38f596b7e709138",
+      "title": "Pay utilities",
+      "due_datetime": 1773147600.0,
+      "description": "Pepco + Washington Gas.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1773147600.0
+    },
+    {
+      "reminder_id": "ee96eeaeb46ea58a297c8a78",
+      "title": "Pack for Shenandoah -- check weather",
+      "due_datetime": 1773442800.0,
+      "description": "Check weather.gov for Shenandoah weekend forecast. Pack layers, rain shell, headlamp. Cooler with ice.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1773442800.0
+    },
+    {
+      "reminder_id": "fe30d4d447f9a54b76ec3499",
+      "title": "Shenandoah entrance fee - $30 vehicle",
+      "due_datetime": 1773486000.0,
+      "description": "Separate from camping fee. Have credit card ready.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1773486000.0
+    },
+    {
+      "reminder_id": "5caf29e53791fa15af5f7ef1",
+      "title": "Start seeds indoors - garden",
+      "due_datetime": 1773496800.0,
+      "description": "Tomatoes, peppers, herbs. Check last frost date.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "bf77deeb4fd2085ec0e878b7",
+      "title": "Check if Renata arrived in Miami",
+      "due_datetime": 1773536400.0,
+      "description": "She's driving down with Casey.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1773536400.0
+    },
+    {
+      "reminder_id": "5e601b69b08586c01c404308",
+      "title": "Call Dr. Vega office -- check for earlier slot",
+      "due_datetime": 1773759600.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "62ae9b445ece45b86450c83e",
+      "title": "Dr. Vega -- 2:00 PM Thursday",
+      "due_datetime": 1773945000.0,
+      "description": "",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1773945000.0
+    },
+    {
+      "reminder_id": "ea60842aeb784b7c812882f2",
+      "title": "Renata asked for $350 for scuba certification",
+      "due_datetime": 1774191600.0,
+      "description": "Miami trip. Also asked about what to tell Tomas about school costs.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "e4ceabfc41f483a8ae316fcb",
+      "title": "Prep ingredients for arroz con gandules video",
+      "due_datetime": 1774393200.0,
+      "description": "Need: gandules, sofrito, sazon, annatto oil, plantains.",
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": 1774393200.0
+    }
+  ]
+}
